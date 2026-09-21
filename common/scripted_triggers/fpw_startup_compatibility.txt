@@ -1,0 +1,37 @@
+can_unlock_second_track_of_sf_doctrine = {
+	if = {
+		limit = { check_variable = { sf_trees > 1 } }
+		custom_trigger_tooltip = {
+			tooltip = can_unlock_second_track_special_forces_doctrine_yes
+			check_variable = { sf_trees > 1 }
+		}
+	}
+	else = {
+		custom_trigger_tooltip = {
+			tooltip = can_unlock_second_track_special_forces_doctrine_no
+			always = no
+		}
+	}
+}
+
+is_literally_china = {
+	OR = {
+		original_tag = CHI
+		original_tag = PRC
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = SHX
+		original_tag = XSM
+		original_tag = SIK
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

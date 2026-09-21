@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+		fpw_afghan_artillery_assistance = {
+			picture = generic_artillery
+			allowed = { original_tag = AFG }
+			removal_cost = -1
+			research_bonus = { artillery = 0.1 }
+		}
+	}
+}
