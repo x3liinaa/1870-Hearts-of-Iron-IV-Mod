@@ -30,7 +30,7 @@ characters={
 		name= "Ayoub Khan"
 		portraits={
 			civilian={
-				large = ""
+				#large = ""
 			}
 		}
 		country_leader={

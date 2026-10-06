@@ -45,7 +45,7 @@ fpw_austria_german_solution = {
 			original_tag = AUS
 		} else = {
 			original_tag = AUS
-			has_completed_focus = AUS_seek_for_the_german_solution
+			#has_completed_focus = AUS_seek_for_the_german_solution
 		}
 	}
 }

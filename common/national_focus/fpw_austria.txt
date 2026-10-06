@@ -200,7 +200,7 @@
 		available = {
 			custom_trigger_tooltip = {
     			tooltip = fpw_tt_holstein_crisis		
-				always = false
+				always = no
 			}
 		}
 
