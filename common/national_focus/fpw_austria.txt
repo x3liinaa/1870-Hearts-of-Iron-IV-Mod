@@ -786,6 +786,7 @@
 		prerequisite = { focus = AUS_common_minstries }
 		cost = 5
 		available = {
+			has_completed_focus = AUS_the_ausgleich
 		}
 		completion_reward = {
 			add_ideas = fpw_idea_the_duel_monarchy
@@ -1759,7 +1760,35 @@
 		available = {
 		}
 		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_study_german_doctrine
+		icon = GFX_focus_generic_advanced_military_studies
+		x = 0
+		y = 1
+		relative_position_id = AUS_military_studies
+		prerequisite = { focus =  AUS_military_studies }
+		cost = 10
+		available = {
+		}
+		completion_reward = {
 			## ill do this later
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.25
+				uses = 1
+				category = land_doctrine
+			}
+			add_to_variable = {
+				var = aus_atk_dm
+				value = 0.05
+			}
 		}
 	}
 
@@ -1806,7 +1835,7 @@
 				var = aus_def_dm
 				value = 0.05
 			}
-			add_ideas = fpw_modernized_military_command
+			add_ideas = fpw_alpine_warfare
 		}
 	}
 
@@ -1847,6 +1876,74 @@
 		}
 		completion_reward = {
 			## ill add this
+		}
+	}
+
+	focus = {
+		id = AUS_restructured_army
+		#icon = GFX_focus_generic_advanced_military_studies
+		x = 2
+		y = 1
+		relative_position_id = AUS_unified_military
+		prerequisite = { focus =  AUS_unified_military }
+		prerequisite = { focus =  AUS_study_german_doctrine }
+		cost = 10
+		available = {
+		}
+		completion_reward = {
+			custom_effect_tooltip = AUS_modernize_mil_tt
+			add_to_variable = {
+				var = aus_breakthru_dm
+				value = 0.10
+			}
+			add_to_variable = {
+				var = aus_org_dm
+				value = 0.10
+			}
+			add_to_variable = {
+				var = aus_atk_dm
+				value = 0.10
+			}
+			add_to_variable = {
+				var = aus_def_dm
+				value = 0.05
+			}
+			add_to_variable = {
+				var = aus_morale_dm
+				value = 0.15
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_new_tools_of_warfare
+		#icon = GFX_focus_generic_advanced_military_studies
+		x = -2
+		y = 1
+		relative_position_id = AUS_restructured_army
+		prerequisite = { focus =  AUS_restructured_army }
+		cost = 10
+		available = {
+		}
+		completion_reward = {
+			# arty buff
+			add_ideas = fpw_aus_new_arty
+		}
+	}
+
+	focus = {
+		id = AUS_traditional_ways
+		#icon = GFX_focus_generic_advanced_military_studies
+		x = 2
+		y = 1
+		relative_position_id = AUS_restructured_army
+		prerequisite = { focus =  AUS_restructured_army }
+		cost = 10
+		available = {
+		}
+		completion_reward = {
+			# inf buff
+			add_ideas = fpw_idea_aus_new_inf
 		}
 	}
 	
