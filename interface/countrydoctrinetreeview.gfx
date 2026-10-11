@@ -68,11 +68,11 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
-	SpriteType = {
-		name = "GFX_fpw_modernized_warfare_medium"
-		texturefile = "gfx/interface/technologies/infantry_offensive.dds"
-		alwaystransparent = yes
-	}
+	#SpriteType = {
+	#	name = "GFX_fpw_modernized_warfare_medium"
+	#	texturefile = "gfx/interface/technologies/infantry_offensive.dds"
+	#	alwaystransparent = yes
+	#}
 	SpriteType = {
 		name = "GFX_flexible_defense_medium"
 		texturefile = "gfx/interface/technologies/elastic_defence.dds"
@@ -149,11 +149,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/central_planning.dds"
 		alwaystransparent = yes
 	}
-	SpriteType = {
-		name = "GFX_rallying_changes_medium"
-		texturefile = "gfx/interface/technologies/grand_assault.dds"
-		alwaystransparent = yes
-	}
+	#SpriteType = {
+	#	name = "GFX_rallying_changes_medium"
+	#	texturefile = "gfx/interface/technologies/grand_assault.dds"
+	#	alwaystransparent = yes
+	#}
 
 	SpriteType = {
 		name = "GFX_shock_infantry_medium"
