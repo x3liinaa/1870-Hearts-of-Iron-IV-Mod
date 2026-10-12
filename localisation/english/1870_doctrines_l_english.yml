@@ -13,6 +13,14 @@
  fpw_TACTICAL_CONTROL:0 "TACTICAL CONTROL"
  fpw_NEO_NAPOLEONIC_WARFARE:0 "NEO-NAPOLEONIC WARFARE"
  fpw_NAPOLEONIC_VANGUARD:0 "NAPOLEONIC VANGUARD"
+ SUBDOCTRINE_GREAT_WAR_INFANTRY:0 "Trench Warfare"
+ SUBDOCTRINE_GREAT_WAR_INFANTRY_DESC:0 "In preparation for a long and global conflict, trench warfare is used to be able to support many fronts defensively."
+ SUBDOCTRINE_CAVALRY_SPEARHEAD:0 "Cavalry Spearhead"
+ SUBDOCTRINE_CAVALRY_SPEARHEAD_DESC:0 "By utilizing a cavalry spearhead we can break our opponents lines and capitalize off of it."
+ SUBDOCTRINE_RAPID_DOMINENCE:0 "Rapid Dominence"
+ SUBDOCTRINE_RAPID_DOMINENCE_DESC:0 "By ensuring we are the quickest, we can capitlize on any mistake the enemies make and instantly turn it into a victory in war."
+ SUBDOCTRINE_SUPPORT_CAVALRY:0 "Support Cavalry"
+ SUBDOCTRINE_SUPPORT_CAVALRY_DESC:0 "By using cavalry alongside with artillery we can shellshock the opponents into surrender."
 
  napoleonic_doctrine:0 "Speed of Thought"
  napoleonic_doctrine_desc:0 ""
@@ -111,3 +119,8 @@
 
 
  cat_nap_legacy:0 "Napoleons Legacy"
+
+
+
+
+ DOCTRINE_TRACK_ARMOR:"Cavalry"

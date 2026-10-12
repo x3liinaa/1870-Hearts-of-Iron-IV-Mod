@@ -3,7 +3,7 @@ new_mobile_warfare = {
 
     name = fpw_NAP_LEGACY
     description = fpw_NAP_LEGACY_DESC
-    icon = GFX_doctrine_mobile_warfare_medium
+    icon = GFX_doctrine_nap_legacy
     available = {
         always = yes
     }
@@ -29,14 +29,16 @@ new_mobile_warfare = {
 
     # EFFECTS
 	planning_speed = 0.15
-	army_speed_factor = 0.005
+	army_speed_factor = 0.05
 	
 
     milestones = {
         {
             #Infantry
-	        army_speed_factor = 0.05
-		    org_loss_when_moving = -0.05
+	        category_all_infantry = {
+			    soft_attack = 0.1
+			    breakthrough = 0.1
+		    }
 
             effect = {
                 if = {
@@ -56,8 +58,9 @@ new_mobile_warfare = {
             #Artillery/Support
 	        category_artillery = {
 			    soft_attack = 0.05
-	        }
-		    max_planning = 0.05
+			    hard_attack = 0.15
+			    max_organisation = 5
+		    }
             effect = {
                 if = {
                     limit = {
@@ -75,8 +78,9 @@ new_mobile_warfare = {
         {
             #Cavalry
 	        
-            minimum_training_level = -0.03
-		    land_reinforce_rate = 0.007
+            maximum_speed = 0.05
+			breakthrough = 0.3
+			max_organisation = 0.1
 
             effect = {
                 if = {
@@ -96,6 +100,7 @@ new_mobile_warfare = {
             #Operations
 	        land_reinforce_rate = 0.01
 		    org_loss_when_moving = -0.05
+            max_planning = 0.05
 
             effect = {
                 if = {
@@ -280,9 +285,12 @@ grand_battleplan = {
     milestones = {
         {
             #Infantry 
-            additional_brigade_column_size = 1
-            enable_tactic = tactic_elastic_defense
-            max_dig_in_factor = 0.05
+            category_all_infantry = {
+			    soft_attack = 0.05
+		    }
+		    category_artillery = {
+			    max_organisation = 5
+		    }
 
             effect = {
                 if = {
@@ -300,12 +308,9 @@ grand_battleplan = {
         }
         {
             #Artillery/Support
-            coordination_bonus = 0.1
-            category_regimental_support_battalions = {
-                defense = 0.1
-                entrenchment = 0.2
-            }
-            enable_tactic = tactic_overwhelming_fire
+            land_reinforce_rate = 0.01
+		    org_loss_when_moving = -0.05
+            coordination_bonus = 0.10
 
             effect = {
                 if = {
@@ -323,8 +328,10 @@ grand_battleplan = {
         }
         {
             #Armor
-            land_reinforce_rate = 0.02
-            enable_tactic = tactic_breakthrough
+            enable_tactic = tactic_unexpected_thrust
+		    category_cavalry = {
+			    breakthrough = 0.05
+		    }
             effect = {
                 if = {
                     limit = {
@@ -342,8 +349,8 @@ grand_battleplan = {
         }
         {
             #Operations
-            coordination_bonus = 0.1
-            max_command_power = 30
+            out_of_supply_factor = -0.1
+		    supply_consumption_factor = -0.05
 
             effect = {
                 if = {
