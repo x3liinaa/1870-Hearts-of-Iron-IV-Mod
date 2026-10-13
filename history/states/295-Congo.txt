@@ -18,7 +18,7 @@ wood=1
 
 	}
 
-	provinces={ 13315 }
+	provinces={ 13315 13456 13497 13539 13836 13846 14060 14535 14540 14541 14544 }
 	manpower=93737
 	buildings_max_level_factor=1.000
 	state_category=rural

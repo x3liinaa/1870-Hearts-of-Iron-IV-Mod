@@ -13,7 +13,7 @@ state={
 
 	}
 
-	provinces={ 13342 }
+	provinces={ 13342 13365 13378 13622 13739 13780 13888 14063 14129 14285 14294 14296 14297 14303 14308 14316 14332 }
 	manpower=7159
 	buildings_max_level_factor=1.000
 	state_category=pastoral

@@ -18,7 +18,7 @@ add_core_of = TRB
 		
 	}
 
-	provinces={ 11910 }
+	provinces={ 11910 11194 11974 11108 13244 11145 }
 
 	local_supplies=1.0 
 }

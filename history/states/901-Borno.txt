@@ -16,7 +16,7 @@ wood=1
 
 	}
 
-	provinces={ 13392 }
+	provinces={ 13392 13471 13509 13579 13591 13649 13774 13882 14081 14373 14379 14393 14400 14415 14419 14422 14427 14428 }
 	manpower=4994
 	buildings_max_level_factor=1.000
 	state_category=pastoral
