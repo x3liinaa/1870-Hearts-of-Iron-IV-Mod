@@ -1,0 +1,291 @@
+﻿l_german: 
+ REU:0 "Prince Rupert's Land"
+ REU_DEF:0 "Prince Rupert's Land"
+ REU_ADJ:0 "Hudson"
+ 
+ BRC:0 "British Columbia Territory"
+ BRC_DEF:0 "the British Columbia Territory"
+ BRC_ADJ:0 "British Columbian"
+ 
+ NBR:0 "Colony of New Brunswick"
+ NBR_DEF:0 "the Colony of New Brunswick"
+ NBR_ADJ:0 "New Brunswick"
+ 
+ NOV:0 "Colony of Nova Scotia"
+ NOV_DEF:0 "the Colony of Nova Scotia"
+ NOV_ADJ:0 "Nova Scotian"
+ 
+ PEI:0 "Prince Edward Island"
+ PEI_DEF:0 "Prince Edward Island"
+ PEI_ADJ:0 "Prince Edward"
+ 
+ FPC:0 "Paris Commune"
+ FPC_DEF:0 "the Paris Commune"
+ FPC_ADJ:0 "Communard"
+
+ PGA:1 "Galicia"
+ PGA_DEF:1 "the Galician State"
+ PGA_ADJ:0 "Galician"
+
+ NRW:1 "Confederation of the Rhine"
+ NRW_DEF:1 "the Confederation of the Rhine"
+ NRW_ADJ:0 "Westphalian"
+
+ JAB:1 "Emirate of Jabal Shammar"
+ JAB_DEF:1 "the Emirate of Jabal Shammar"
+ JAB_ADJ:0 "Shammari"
+
+ TRB:1 ""
+ TRB_DEF:1 "Unclaimed Territory"
+ TRB_ADJ:0 "Tribal"
+
+ BRU:0 "Duchy of Brunswick"
+ BRU_DEF:1 "the Duchy of Brunswick"
+ BRU_socialism_ideology:0 "Socialist Republic of Brunswick"
+ BRU_socialism_ideology_DEF:0 "the Socialist Republic of Brunswick"
+ BRU_ADJ:0 "Brunswickish"
+
+ WRT:1 "Kingdom of Württemberg"
+ WRT_DEF:1 "the Kingdom of Württemberg"
+ WRT_socialism_ideology:0 "Socialist Republic of Württemberg"
+ WRT_socialism_ideology_DEF:0 "the Socialist Republic of Württemberg"
+ WRT_ADJ:0 "Württemberger"
+
+ WLD:1 "Principality of Waldeck and Pyrmont"
+ WLD_DEF:1 "the Principality of Waldeck and Pyrmont"
+ WLD_ADJ:0 "Waldecker"
+
+ SBG:1 "Principality of Schwarzburg"
+ SBG_DEF:1 "the Principality of Schwarzburg"
+ SBG_ADJ:0 "Schwarzburger"
+
+ SWG:1 "Duchy of Schleswig"
+ SWG_DEF:1 "the Duchy of Schleswig"
+ SWG_socialism_ideology:0 "Socialist Republic of Schleswig"
+ SWG_socialism_ideology_DEF:0 "the Socialist Republic of Schleswig"
+ SWG_ADJ:0 "Schleswig"
+
+ SBL:1 "Principality of Schaumburg-Lippe"
+ SBL_DEF:1 "the Principality of Schaumburg-Lippe"
+ SBL_ADJ:0 "Schaumburger"
+
+ SXY:1 "Kingdom of Saxony"
+ SXY_DEF:1 "the Kingdom of Saxony"
+ SXY_ADJ:0 "Saxon"
+
+ SXW:1 "Grand Duchy of Saxe-Weimar"
+ SXW_DEF:1 "the Grand Duchy of Saxe-Weimar"
+ SXW_ADJ:0 "Saxon-Weimar"
+
+ SXM:1 "Duchy of Saxe-Meiningen"
+ SXM_DEF:1 "the Duchy of Saxe-Meiningen"
+ SXM_ADJ:0 "Saxon-Meiningen"
+
+ SCG:1 "Duchy of Saxe-Coburg and Gotha"
+ SCG_DEF:1 "the Duchy of Saxe-Coburg and Gotha"
+ SCG_ADJ:0 "Saxon-Coburg"
+
+ PRS:1 "Königreich Preußen"
+ PRS_socialism_ideology:0 "Preußisches Volksreich"
+ PRS_socialism_ideology_DEF:0 "das Preußische Volksreich"
+ PRS_DEF:1 "das Königreich Preußen"
+ PRS_ADJ:0 "Preußisch"
+
+ OLD:1 "Grand Duchy of Oldenburg"
+ OLD_DEF:1 "the Grand Duchy of Oldenburg"
+ OLD_ADJ:0 "Oldenburger"
+
+ NAS:1 "Duchy of Nassau"
+ NAS_DEF:1 "the Duchy of Nassau"
+ NAS_ADJ:0 "Nassau"
+
+ MCK:1 "Grand Duchy of Mecklenburg"
+ MCK_DEF:1 "the Grand Duchy of Mecklenburg"
+ MCK_ADJ:0 "Mecklenburger"
+
+ MKS:1 "Grand Duchy of Mecklenburg-Strelitz"
+ MKS_DEF:1 "the Grand Duchy of Mecklenburg-Strelitz"
+ MKS_ADJ:0 "Mecklenburg-Strelitz"
+
+ LUE_conservatism:0 "Free and Hanseatic City of Lübeck"
+ LUE_conservatism_DEF:0 "the Free and Hanseatic City of Lübeck"
+ LUE:1 "Grand Duchy of Lübeck"
+ LUE_DEF:1 "the Grand Duchy of Lübeck"
+ LUE_ADJ:0 "Lübecker"
+
+ LIP:1 "Principality of Lippe"
+ LIP_DEF:1 "the Principality of Lippe"
+ LIP_ADJ:0 "Lippish"
+
+ HOH:1 "Duchy of Hohenzollern"
+ HOH_DEF:1 "the Duchy of Hohenzollern"
+ HOH_ADJ:0 "Hohenzollern" 
+
+ HES:1 "Grand Duchy of Hesse"
+ HES_DEF:1 "the Grand Duchy of Hesse"
+ HES_ADJ:0 "Hesse" 
+
+ HEK:1 "Grand Duchy of Hesse-Kassel"
+ HEK_DEF:1 "the Grand Duchy of Hesse-Kassel"
+ HEK_ADJ:0 "Hesse-Kassel" 
+
+ HNV:1 "Kingdom of Hannover"
+ HNV_DEF:1 "the Kingdom of Hannover"
+ HNV_ADJ:0 "Hannoverian" 
+
+ HAM_conservatism:0 "Free and Hanseatic City of Hamburg"
+ HAM_conservatism_DEF:0 "the Free Hanseatic City of Hamburg"
+ HAM:1 "Grand Duchy of Hamburg"
+ HAM_DEF:1 "the Grand Duchy of Hamburg"
+ HAM_ADJ:0 "Hamburger"
+
+ BAD:1 "Grand Duchy of Baden"
+ BAD_DEF:1 "the Grand Duchy of Baden"
+ BAD_ADJ:0 "Baden"
+
+ FRK_conservatism:0 "Free City of Frankfurt"
+ FRK_conservatism_DEF:0 "the Free City of Frankfurt"
+ FRK:1 "Duchy of Frankfurt"
+ FRK_DEF:1 "the Duchy of Frankfurt"
+ FRK_ADJ:0 "Frankfurter"
+
+ BRE_conservatism:0 "Free Hanseatic City of Bremen"
+ BRE_conservatism_DEF:0 "the Free Hanseatic City of Bremen"
+ BRE:1 "Grand Duchy of Bremen"
+ BRE_DEF:1 "the Grand Duchy of Bremen"
+ BRE_ADJ:0 "Bremish"
+
+ ANH:1 "Duchy of Anhalt"
+ ANH_DEF:1 "the Duchy of Anhalt"
+ ANH_ADJ:0 "Anhalt"
+
+ BAV:1 "Kingdom of Bavaria"
+ BAV_DEF:1 "the Kingdom of Bavaria"
+ BAV_ADJ:0 "Bavarian"
+
+ NIA:1 "Nian Army"
+ NIA_DEF:1 "the Nian Army"
+ NIA_ADJ:0 "Nian"
+
+ PIN:1 "Pingnan Kingdom"
+ PIN_DEF:1 "the Pingnan Kingdom"
+ PIN_ADJ:0 "Hui"
+
+ HAR:1 "Emirate of Harar"
+ HAR_DEF:1 "the Emirate of Harar"
+ HAR_ADJ:0 "Harar"
+ 
+ SOV: "Russian Empire"
+ SOV_DEF: "the Russian Empire"
+ SOV_socialism_ideology: "Soviet Union"
+ SOV_socialism_ideology_DEF: "die Soviet Union"
+
+ FIN_SOV_subject:0 "Grand Duchy of Finland"
+ FIN_SOV_subject_DEF:0 "the Grand Duchy of Finland"
+ 
+ EZO_fascism:1 "Nationalist Ezo State"
+ EZO_fascism_DEF:1 "the Nationalist Ezo State"
+ EZO_democratic:1 "Republic of Ezo"
+ EZO_democratic_DEF:1 "the Republic of Ezo"
+ EZO_neutrality:0 "Ezo"
+ EZO_neutrality_DEF:0 "Ezo"
+ EZO_communism:1 "Ezo Socialist Union"
+ EZO_communism_DEF:1 "the Ezo Socialist Union"
+ EZO_fascism_ADJ:0 "Ezo"
+ EZO_democratic_ADJ:0 "Ezo"
+ EZO_neutrality_ADJ:0 "Ezo"
+ EZO_communism_ADJ:0 "Ezo"
+ EZO:0 "Ezo"
+ EZO_DEF:0 "Ezo"
+ EZO_ADJ:0 "Ezo" 
+ 
+ RYU:1 "Ryukyu Kingdom"
+ RYU_DEF:1 "the Ryukyu Kingdom"
+ RYU_ADJ:0 "Ryukyuan"
+
+ OKL: "Oklahoma"
+ OKL_DEF: "Oklahoma"
+ OKL_ADJ: "Oklahoma"
+
+ NMX: "New Mexico"
+ NMX_DEF: "New Mexico"
+ NMX_ADJ: "New Mexico"
+
+ ARZ: "Arizona"
+ ARZ_DEF: "Arizona"
+ ARZ_ADJ: "Arizona"
+
+ UTH: "Utah"
+ UTH_DEF: "Utah"
+ UTH_ADJ: "Utah"
+
+ CLR: "Colorado"
+ CLR_DEF: "Colorado"
+ CLR_ADJ: "Colorado"
+
+ NEB: "Nebraska"
+ NEB_DEF: "Nebraska"
+ NEB_ADJ: "Nebraska"
+
+ DAK: "Dakota"
+ DAK_DEF: "Dakota"
+ DAK_ADJ: "Dakota"
+
+ MTN: "Montana"
+ MTN_DEF: "Montana"
+ MTN_ADJ: "Montana"
+
+ IDA: "Idaho"
+ IDA_DEF: "Idaho"
+ IDA_ADJ: "Idaho"
+
+ WAS: "Washington"
+ WAS_DEF: "Washington"
+ WAS_ADJ: "Washington"
+
+ SAT:1 "Satsuma Domain"
+ SAT_DEF:1 "the Satsuma Domain"
+ SAT_ADJ:0 "Satsuma"
+ 
+ LAN:1 "Lanfang Republic"
+ LAN_DEF:1 "the Lanfang Republic"
+ LAN_ADJ:0 "Lanfang"
+
+ AFZ:1 "Emirate of Afghanistan"
+ AFZ_DEF:1 "Emirate of Afghanistan"
+ AFZ_ADJ:0 "Emirate of Afghanistan"
+ BRA_democratic:0 "Empire of Brazil"
+ BRA_democratic_DEF:0 "Empire of Brazil"
+ BRA_democratic_ADJ:0 "Empire of Brazil"
+ 
+ AFG:0 "Afghanistan"
+ AFG_DEF:0 "Afghanistan"
+ AFG_ADJ:0 "Afghan" 
+
+ ALS:0 "Alaska"
+ ALS_DEF:0 "Alaska"
+ ALS_ADJ:0 "Alaskian" 
+
+ PAK:0 "Pakistan"
+ PAK_DEF:0 "Pakistan"
+ PAK_ADJ:0 "Pakistani"
+
+ BRM:0 "Burma"
+ BRM_DEF:0 "Burma"
+ BRM_ADJ:0 "Burmese"
+ 
+ HUN_subject: "$HUN$"
+ HUN_subject_DEF: "$HUN$"
+ HUN_AUS_autonomy_austrian_personal_union: "Kingdom of Hungary"
+ HUN_AUS_autonomy_austrian_personal_union_DEF: "the Kingdom of Hungary"
+ 
+ CZE_AUS_autonomy_austrian_personal_union: "Kingdom of Bohemia"
+ CZE_AUS_autonomy_austrian_personal_union_DEF: "the Kingdom of Bohemia"
+ 
+ PGA_AUS_autonomy_austrian_personal_union: "Kingdom of Galicia"
+ PGA_AUS_autonomy_austrian_personal_union_DEF: "the Kingdom of Galicia"
+ 
+ CRO_AUS_autonomy_austrian_personal_union: "Kingdom of Illyria"
+ CRO_AUS_autonomy_austrian_personal_union_DEF: "the Kingdom of Illyria"
+ 
+ 

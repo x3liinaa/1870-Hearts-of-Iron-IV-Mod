@@ -117,6 +117,7 @@
  AUS_illyria_neutral: "Neutrales Illyrien"
  AUS_illyria_hostile: "Feindliches Illyrien"
  fpw_idea_habsburg_horses: "Habsburg Pferde"
+ fpw_modernized_military_command: "Modernisiertes Militärkommando"
 
 
 #events
@@ -162,31 +163,31 @@
  AUS_czech_loyal_triger_tt: "§YBohemian§! Haltung ist mindestens: §GLoyal§!"
  AUS_galicia_loyal_triger_tt: "§YGalician§! Haltung ist mindestens: §GLoyal§!"
  AUS_illyria_loyal_triger_tt: "§YIllyrian§! Haltung ist mindestens: §GLoyal§!"
- AUS_hungary_friendly_triger_tt: "§YHungarian§! Haltung ist mindestens: §7Friendly§"
- AUS_czech_friendly_triger_tt: "§YBohemian§! Haltung ist mindestens: §7Friendly§"
- AUS_galicia_friendly_triger_tt: "§YGalician§! Haltung ist mindestens: §7Friendly§"
- AUS_illyria_friendly_triger_tt: "§YIllyrian§! Haltung ist mindestens: §7Friendly§"
+ AUS_hungary_friendly_triger_tt: "§YHungarian§! Haltung ist mindestens: §7Freundlich§"
+ AUS_czech_friendly_triger_tt: "§YBohemian§! Haltung ist mindestens: §7Freundlich§"
+ AUS_galicia_friendly_triger_tt: "§YGalician§! Haltung ist mindestens: §7Freundlich§"
+ AUS_illyria_friendly_triger_tt: "§YIllyrian§! Haltung ist mindestens: §7Freundlich§"
  AUS_hungary_neutral_triger_tt: "§YHungarian§! Haltung ist mindestens: §gNeutral§!"
  AUS_czech_neutral_triger_tt: "§YBohemian§! Haltung ist mindestens: §gNeutral§!"
  AUS_galicia_neutral_triger_tt: "§YGalician§! Haltung ist mindestens: §gNeutral§!"
  AUS_illyria_neutral_triger_tt: "§YIllyrian§! Haltung ist mindestens: §gNeutral§!"
- AUS_hungary_hostile_triger_tt: "§YHungarian§! Haltung ist mindestens: §RHostile§!"
- AUS_czech_hostile_triger_tt: "§YBohemian§! Haltung ist mindestens: §RHostile§!"
- AUS_galicia_hostile_triger_tt: "§YGalician§! Haltung ist mindestens: §RHostile§!"
- AUS_illyria_hostile_triger_tt: "§YIllyrian§! Haltung ist mindestens: §RHostile§!"
+ AUS_hungary_hostile_triger_tt: "§YHungarian§! Haltung ist mindestens: §RFeindlich§!"
+ AUS_czech_hostile_triger_tt: "§YBohemian§! Haltung ist mindestens: §RFeindlich§!"
+ AUS_galicia_hostile_triger_tt: "§YGalician§! Haltung ist mindestens: §RFeindlich§!"
+ AUS_illyria_hostile_triger_tt: "§YIllyrian§! Haltung ist mindestens: §RFeindlich§!"
  AUS_need_5_trust: "Mindestens 5 Vertrauen mit ihnen."
 
 #custom effect tooltips
- hungarian_protests_effect: "Jeder §Yungarische§! Staat hört auf, ein Kern von §YÖsterreich§! zu sein! \n Start §RWiderstand§!: 60.0% \n Start §CCompliance§!: 20.0%"
- slavic_revolts_effect: "Jeder §Yslawische§! Staat hört auf, ein Kern von §YÖsterreich§! zu sein! \n Start §RWiderstand§! \n Start §CCompliance§!"
+ hungarian_protests_effect: "Jeder §YUngarische§! Staat hört auf, ein Kern von §YÖsterreich§! zu sein! \n Start §RWiderstand§!: 60.0% \n Start §CGehorsam§!: 20.0%"
+ slavic_revolts_effect: "Jeder §YSlawische§! Staat hört auf, ein Kern von §YÖsterreich§! zu sein! \n Start §RWiderstand§! \n Start §CGehorsam§!"
  AUS_increse_hungraian_attitude_effect_tt: "Dies wird die Haltung §YUngarns§! §Gerhöhen§! ."
  AUS_decrese_hungraian_attitude_effect_tt: "Dies wird die Haltung §YUngarns§! §Rverringern§! ."
  AUS_increse_czech_attitude_effect_tt: "Dies wird die Haltung §YBöhmens§! §Gerhöhen§! ."
  AUS_decrese_czech_attitude_effect_tt: "Dies wird die Haltung §YBöhmens§! §Rverringern§! ."
  AUS_increse_galician_attitude_effect_tt: "Dies wird die Haltung §YGalizien§! §Gerhöhen§! ."
  AUS_decrese_galician_attitude_effect_tt: "Dies wird die Haltung §YGalizien§! §Rverringern§! ."
- AUS_increse_illyrian_attitude_effect_tt: "Dies wird die Haltung §YUngarns§! §Gerhöhen§! ."
- AUS_decrese_illyrian_attitude_effect_tt: "Dies wird die Haltung §YUngarns§! §Rverringern§! ."
+ AUS_increse_illyrian_attitude_effect_tt: "Dies wird die Haltung §YIllyriens§! §Gerhöhen§! ."
+ AUS_decrese_illyrian_attitude_effect_tt: "Dies wird die Haltung §YIllyriens§! §Rverringern§! ."
  AUS_war_with_ottomans: "Dies könnte einen Krieg mit dem [TUR.GetNameDef] auslösen."
  AUS_congress_of_berlin_tt: "Dies wird die anderen Großmächte darum bitten, das[TUR.GetNameDef] zu teilen."
  AUS_balkan_protectorates_tt: "§YSerbien§! und §YBulgarien§! werden je ein Ultimatum erhalten. Die Annahme macht sie zu österreichischen Untertanen; die Ablehnung gewährt Österreich ein Marionetten-Kriegsziel."
@@ -233,5 +234,6 @@
  
 #opinion modifiers
  fpw_rejected_congress_of_berlin: "Abgelehnte Vereinbarungen von Berlin"
+ 
 #cosmetic nation/ideology names
  
