@@ -248,6 +248,39 @@
  fpw_basic_train: "Basic Train"
 
 
+ #colonial
+ fpw_anti_malaria_one:0 "Antibiotics"
+ fpw_anti_malaria_one_desc:0 "This Technology will decrease the affects that §YMalaria§! has on our colonial settlement"
+ fpw_anti_malaria_two:0 "Protective Colonial Clothing"
+ fpw_anti_malaria_two_desc:0 "This Technology will decrease the affects that §YMalaria§! has on our colonial settlement"
+ fpw_anti_malaria_three:0 "Vaccines"
+ fpw_anti_malaria_three_desc:0 "This Technology will decrease the affects that §YMalaria§! has on our colonial settlement"
+ fpw_anti_malaria_four:0 "Improved Vaccines"
+ fpw_anti_malaria_four_desc:0 "This Technology will decrease the affects that §YMalaria§! has on our colonial settlement"
+
+
+ fpw_improved_settling_one:0 "Encourage Settlement I"
+ fpw_improved_settling_one_desc:0 "This Technology will decrease §YColonial Time§!"
+ fpw_improved_settling_two:0 "Encourage Settlement II"
+ fpw_improved_settling_two_desc:0 "This Technology will decrease §YColonial Time§!"
+ fpw_improved_settling_three:0 "Encourage Settlement III"
+ fpw_improved_settling_three_desc:0 "This Technology will decrease §YColonial Time§!"
+ fpw_improved_settling_four:0 "Encourage Settlement IV"
+ fpw_improved_settling_four_desc:0 "This Technology will decrease §YColonial Time§!"
+
+ fpw_colonial_effort_one:0 "Colonial Effort I"
+ fpw_colonial_effort_one_desc:0 "This Technology will grant a §YColonist§!"
+ fpw_colonial_effort_two:0 "Colonial Effort II"
+ fpw_colonial_effort_two_desc:0 "This Technology will grant a §YColonist§!"
+ fpw_colonial_effort_three:0 "Colonial Effort III"
+ fpw_colonial_effort_three_desc:0 "This Technology will grant a §YColonist§!"
+ fpw_colonial_effort_four:0 "Colonial Effort IV"
+ fpw_colonial_effort_four_desc:0 "This Technology will grant a §YColonist§!"
+
+ #fpw_colonial_anti_malaria_tt:0 "This Technology will decrease the affects that §YMalaria§ has on our colonial settlement"
+ #fpw_colonial_improved_settling_tt:0 "This Technology will decrease §YColonial Time§"
+ #fpw_colonial_effort_tt:0 "This Technology will grant a §YColonist§"
+
 
 
 

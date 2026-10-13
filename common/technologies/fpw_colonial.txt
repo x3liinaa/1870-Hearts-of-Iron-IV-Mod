@@ -14,7 +14,7 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
-		
+		custom_modifier_tooltip = fpw_colonial_anti_malaria_tt
 		path = {
 			leads_to_tech = fpw_anti_malaria_two 
 			research_cost_coeff = 1
@@ -24,7 +24,7 @@ technologies = {
 		start_year = 1866
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 0 y = 0 }
+			position = { x = -7 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -40,7 +40,8 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
-		
+		custom_modifier_tooltip = fpw_colonial_anti_malaria_tt
+	
 		path = {
 			leads_to_tech = fpw_anti_malaria_three 
 			research_cost_coeff = 1
@@ -50,7 +51,7 @@ technologies = {
 		start_year = 1867
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 0 y = -2 }
+			position = { x = -7 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -66,7 +67,8 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
-		
+		custom_modifier_tooltip = fpw_colonial_anti_malaria_tt
+	
 		path = {
 			leads_to_tech = fpw_anti_malaria_four 
 			research_cost_coeff = 1
@@ -76,7 +78,7 @@ technologies = {
 		start_year = 1869
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 0 y = -3 }
+			position = { x = -7 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -92,7 +94,7 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
-		
+
 		path = {
 			#leads_to_tech = improved_machine_tools 
 			research_cost_coeff = 1
@@ -102,7 +104,7 @@ technologies = {
 		start_year = 1871
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 0 y = -4 }
+			position = { x = -7 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -118,6 +120,7 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
+
 		on_research_complete = {
 			add_to_variable = { ROOT.colonial_time = -5 }
 		}
@@ -131,7 +134,7 @@ technologies = {
 		start_year = 1866
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 2 y = 0 }
+			position = { x = 0 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -147,6 +150,7 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
+
 		on_research_complete = {
 			add_to_variable = { ROOT.colonial_time = -5 }
 		}
@@ -160,7 +164,7 @@ technologies = {
 		start_year = 1867
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 2 y = -1 }
+			position = { x = 0 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -176,6 +180,7 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
+
 		on_research_complete = {
 			add_to_variable = { ROOT.colonial_time = -5 }
 		}
@@ -189,7 +194,7 @@ technologies = {
 		start_year = 1869
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 2 y = -2 }
+			position = { x = 0 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -205,6 +210,7 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
+
 		on_research_complete = {
 			add_to_variable = { ROOT.colonial_time = -5 }
 		}
@@ -218,7 +224,7 @@ technologies = {
 		start_year = 1871
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 2 y = -3 }
+			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -234,13 +240,14 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
+
 		consumer_goods_factor = 0.05
 		on_research_complete = {
 			add_to_variable = { ROOT.colonists = 1 }
 		}
 		
 		path = {
-			leads_to_tech = fpw_improved_settling_two
+			leads_to_tech = fpw_colonial_effort_two
 			research_cost_coeff = 1
 		}
 		
@@ -248,7 +255,7 @@ technologies = {
 		start_year = 1866
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 4 y = 0 }
+			position = { x = 7 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -265,13 +272,14 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
+
 		consumer_goods_factor = 0.05
 		on_research_complete = {
 			add_to_variable = { ROOT.colonists = 1 }
 		}
 		
 		path = {
-			leads_to_tech = fpw_improved_settling_three
+			leads_to_tech = fpw_colonial_effort_three
 			research_cost_coeff = 1
 		}
 		
@@ -279,7 +287,7 @@ technologies = {
 		start_year = 1867
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 4 y = -1 }
+			position = { x = 7 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -295,13 +303,14 @@ technologies = {
 	
 		#production_factory_max_efficiency_factor = 0.1
 		# Add tt
+
 		consumer_goods_factor = 0.05
 		on_research_complete = {
 			add_to_variable = { ROOT.colonists = 1 }
 		}
 		
 		path = {
-			leads_to_tech = fpw_improved_settling_four
+			leads_to_tech = fpw_colonial_effort_four
 			research_cost_coeff = 1
 		}
 		
@@ -309,7 +318,7 @@ technologies = {
 		start_year = 1869
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 4 y = -2 }
+			position = { x = 7 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -339,7 +348,7 @@ technologies = {
 		start_year = 1871
 		folder = {
 			name = fpw_colonist_folder
-			position = { x = 4 y = -3 }
+			position = { x = 7 y = 6 }
 		}
 		
 		ai_will_do = {

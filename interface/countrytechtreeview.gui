@@ -1841,14 +1841,14 @@ guiTypes = {
 	
 			containerWindowType = {
 				name = "cavalry_subtitles"
-				position = { x = 0 y = 172 }
+				position = { x = 0 y = 20 }
 				size = { width = 600 height = 80% }
 				orientation = center_up
 				origo = center_up
 	
 				instantTextBoxType = {
 					name = "fpw_anti_malaria"
-					position = { x = -400 y = 55 }
+					position = { x = -340 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1862,7 +1862,7 @@ guiTypes = {
 	
 				instantTextBoxType = {
 					name = "fpw_colonial_increase"
-					position = { x = -350 y = 55 }
+					position = { x = 195 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 300 y = 4}
@@ -1875,7 +1875,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "fpw_colonial_effort"
-					position = { x = -100 y = 55 }
+					position = { x = 730 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 300 y = 4}
@@ -1891,8 +1891,24 @@ guiTypes = {
 	
 	
 			gridboxtype = {
-				name = "fpw_colonist_anti_malaria_tree"
+				name = "fpw_anti_malaria_one_tree"
+				position = { x = 7% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "fpw_improved_settling_one_tree"
 				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "fpw_colonial_effort_one_tree"
+				position = { x = 13% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
