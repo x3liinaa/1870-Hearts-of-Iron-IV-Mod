@@ -22,6 +22,49 @@ colonize_state = {
 	#    value = 9
 	#}
 
+	if = {
+		limit = {
+			has_tech = fpw_anti_malaria_one
+		}
+		multiply_variable = {
+			var = ROOT.colonial_time
+			value = 7
+		}
+	} 
+	else if = {
+		limit = {
+			has_tech = fpw_anti_malaria_two
+		}
+		multiply_variable = {
+			var = ROOT.colonial_time
+			value = 5
+		}
+	}
+	else if = {
+		limit = {
+			has_tech = fpw_anti_malaria_three
+		}
+		multiply_variable = {
+			var = ROOT.colonial_time
+			value = 2
+		}
+	}
+	else if = {
+		limit = {
+			has_tech = fpw_anti_malaria_four
+		}
+		multiply_variable = {
+			var = ROOT.colonial_time
+			value = 1
+		}
+	}
+	else = {
+		multiply_variable = {
+			var = ROOT.colonial_time
+			value = 9
+		}
+	}
+
 	multiply_variable = {
 		var = ROOT.colonial_time
 		value = ROOT.extra_colonizing_speed

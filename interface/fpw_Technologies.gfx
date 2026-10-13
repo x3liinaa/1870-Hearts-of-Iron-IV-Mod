@@ -355,6 +355,8 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_fpw_muzzle5_medium"
 		texturefile = "gfx/interface/technologies/muzzle/fpw_muzzle_support_3.dds"
-	}	
+	}
+	
+	### Colonial
 
 }

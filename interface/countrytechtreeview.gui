@@ -1667,27 +1667,14 @@ guiTypes = {
 				}
 	
 				containerWindowType = {
-					name = "cavalry_year_right"
+					name = "colonist_year_right"
 					position = { x=10 y=140 }
 					size = { width = 80 height = 100%% }
 					orientation = upper_left
 	
 					instantTextBoxType = {
-						name = "cavalry_year1"
+						name = "colonist_year1"
 						position = { x = 60 y = 45 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1860"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-	
-					instantTextBoxType = {
-						name = "cavalry_year2"
-						position = { x = 60 y = 185 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1699,12 +1686,25 @@ guiTypes = {
 					}
 	
 					instantTextBoxType = {
-						name = "cavalry_year3"
+						name = "colonist_year2"
+						position = { x = 60 y = 185 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1867"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+	
+					instantTextBoxType = {
+						name = "colonist_year3"
 						position = { x = 60 y = 325 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1868"
+						text = "1869"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -1712,12 +1712,12 @@ guiTypes = {
 					}
 	
 					instantTextBoxType = {
-						name = "cavalry_year4"
+						name = "colonist_year4"
 						position = { x = 60 y = 470 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1870"
+						text = "1871"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -1725,7 +1725,7 @@ guiTypes = {
 					}
 	
 					instantTextBoxType = {
-						name = "cavalry_year5"
+						name = "colonist_year5"
 						position = { x = 60 y = 610 }
 						textureFile = ""
 						font = "hoi_36header"
@@ -1738,7 +1738,7 @@ guiTypes = {
 					}
 	
 					instantTextBoxType = {
-						name = "cavalry_year6"
+						name = "colonist_year6"
 						position = { x = 60 y = 745 }
 						textureFile = ""
 						font = "hoi_36header"
@@ -1753,7 +1753,7 @@ guiTypes = {
 	
 	
 				containerWindowType = {
-					name = "cavalry_year_left"
+					name = "colonist_year_left"
 					position = { x=-100 y=140 }
 					size = { width = 80 height = 100%% }
 					orientation = upper_right
@@ -1761,19 +1761,6 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "cavalry_year1_left"
 						position = { x = 0 y = 45 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1860"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-	
-					instantTextBoxType = {
-						name = "cavalry_year2_left"
-						position = { x = 0 y = 185 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1785,12 +1772,25 @@ guiTypes = {
 					}
 	
 					instantTextBoxType = {
-						name = "cavalry_year3_left"
+						name = "colonist_year2_left"
+						position = { x = 0 y = 185 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1867"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+	
+					instantTextBoxType = {
+						name = "colonist_year3_left"
 						position = { x = 0 y = 325 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1868"
+						text = "1869"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -1798,12 +1798,12 @@ guiTypes = {
 					}
 	
 					instantTextBoxType = {
-						name = "cavalry_year4_left"
+						name = "colonist_year4_left"
 						position = { x = 0 y = 470 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1870"
+						text = "1871"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -1811,7 +1811,7 @@ guiTypes = {
 					}
 	
 					instantTextBoxType = {
-						name = "cavalry_year5_left"
+						name = "colonist_year5_left"
 						position = { x = 0 y = 610 }
 						textureFile = ""
 						font = "hoi_36header"
@@ -1824,7 +1824,7 @@ guiTypes = {
 					}
 	
 					instantTextBoxType = {
-						name = "cavalry_year6_left"
+						name = "colonist_year6_left"
 						position = { x = 0 y = 745 }
 						textureFile = ""
 						font = "hoi_36header"
@@ -1847,119 +1847,51 @@ guiTypes = {
 				origo = center_up
 	
 				instantTextBoxType = {
-					name = "fpw_cavalry_horse"
-					position = { x = 758 y = 55 }
+					name = "fpw_anti_malaria"
+					position = { x = -400 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "HORSE"
+					text = "ANTI-MALARIA"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
-				instantTextBoxType = {
-					name = "fpw_cavalry_armor"
-					position = { x = 340 y = 195 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "ARMOR"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "fpw_cavalry_hoofs"
-					position = { x = 622 y = 195 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "HOOFS"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "fpw_cavalry_tack"
-					position = { x = 902 y = 195 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "TACK"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "fpw_cavalry_saddle"
-					position = { x = 1105 y = 195 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "SADDLE"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
+				
 	
 				instantTextBoxType = {
-					name = "fpw_cavalry_rider"
+					name = "fpw_colonial_increase"
 					position = { x = -350 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "CAVALRYMAN"
+					borderSize = {x = 300 y = 4}
+					text = "IMPROVED SETTLING"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
+
 				instantTextBoxType = {
-					name = "cavalry_subtitle_firearms"
-					position = { x = -84 y = 195  }
+					name = "fpw_colonial_effort"
+					position = { x = -100 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "FIREARMS"
+					borderSize = {x = 300 y = 4}
+					text = "COLONIAL EFFORT"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
-				instantTextBoxType = {
-					name = "cavalry_subtitle_melee"
-					position = { x = -500 y = 195  }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "MELEE"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "cavalry_subtitle_utility"
-					position = { x = -215 y = 330  }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "UTILITY"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
+				
+				
 			}
 	
 	
 			gridboxtype = {
-				name = "fpw_colonist_equipment_tree"
+				name = "fpw_colonist_anti_malaria_tree"
 				position = { x = 10% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }

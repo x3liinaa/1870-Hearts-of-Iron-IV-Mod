@@ -1,0 +1,354 @@
+technologies = {
+
+	@1860 = 0
+	@1862 = 2
+	@1864 = 4
+	@1866 = 6
+	@1868 = 8
+	@1870 = 10
+	@1872 = 12
+	@1874 = 14
+
+
+	fpw_anti_malaria_one = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		
+		path = {
+			leads_to_tech = fpw_anti_malaria_two 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1866
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_anti_malaria_two = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		
+		path = {
+			leads_to_tech = fpw_anti_malaria_three 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1867
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 0 y = -2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_anti_malaria_three = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		
+		path = {
+			leads_to_tech = fpw_anti_malaria_four 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1869
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 0 y = -3 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_anti_malaria_four = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		
+		path = {
+			#leads_to_tech = improved_machine_tools 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1871
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 0 y = -4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_improved_settling_one = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		on_research_complete = {
+			add_to_variable = { ROOT.colonial_time = -5 }
+		}
+		
+		path = {
+			leads_to_tech = fpw_improved_settling_two 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1866
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_improved_settling_two = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		on_research_complete = {
+			add_to_variable = { ROOT.colonial_time = -5 }
+		}
+		
+		path = {
+			leads_to_tech = fpw_improved_settling_three 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1867
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 2 y = -1 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_improved_settling_three = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		on_research_complete = {
+			add_to_variable = { ROOT.colonial_time = -5 }
+		}
+		
+		path = {
+			leads_to_tech = fpw_improved_settling_four
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1869
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 2 y = -2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_improved_settling_four = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		on_research_complete = {
+			add_to_variable = { ROOT.colonial_time = -5 }
+		}
+		
+		path = {
+			#leads_to_tech = fpw_improved_settling_four
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1871
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 2 y = -3 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_colonial_effort_one = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		consumer_goods_factor = 0.05
+		on_research_complete = {
+			add_to_variable = { ROOT.colonists = 1 }
+		}
+		
+		path = {
+			leads_to_tech = fpw_improved_settling_two
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1866
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 4 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+
+	fpw_colonial_effort_two = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		consumer_goods_factor = 0.05
+		on_research_complete = {
+			add_to_variable = { ROOT.colonists = 1 }
+		}
+		
+		path = {
+			leads_to_tech = fpw_improved_settling_three
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1867
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 4 y = -1 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_colonial_effort_three = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		consumer_goods_factor = 0.05
+		on_research_complete = {
+			add_to_variable = { ROOT.colonists = 1 }
+		}
+		
+		path = {
+			leads_to_tech = fpw_improved_settling_four
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1869
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 4 y = -2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+
+	fpw_colonial_effort_four = {
+	
+		#production_factory_max_efficiency_factor = 0.1
+		# Add tt
+		consumer_goods_factor = 0.05
+		on_research_complete = {
+			add_to_variable = { ROOT.colonists = 1 }
+		}
+		
+		path = {
+			#leads_to_tech = fpw_improved_settling_two
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1871
+		folder = {
+			name = fpw_colonist_folder
+			position = { x = 4 y = -3 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			colonial
+		}
+	}
+			
+}
