@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = british_focus
 	
 	country = {
@@ -608,8 +608,8 @@
 
 		available = {
 			OR = {
-				1320 = { is_owned_by = ENG }
-				1320 = {
+				1177 = { is_owned_by = ENG }
+				1177 = {
 					owner = {
 						is_subject_of = ENG
 					}
@@ -798,9 +798,9 @@
 			MAL = {
 				any_state = {
 					OR = {
-						state = 1320
-						state = 1312
-						state = 1310
+						state = 1177
+						state = 1169
+						state = 1167
 					}
 					OR = {
 						is_owned_by = ENG
@@ -848,9 +848,9 @@
 			MAL = {
 				any_state = {
 					OR = {
-						state = 1320
-						state = 1312
-						state = 1310
+						state = 1177
+						state = 1169
+						state = 1167
 					}
 					OR = {
 						is_owned_by = ENG
@@ -889,9 +889,9 @@
 			MAL = {
 				any_state = {
 					OR = {
-						state = 1320
-						state = 1312
-						state = 1310
+						state = 1177
+						state = 1169
+						state = 1167
 					}
 					OR = {
 						is_owned_by = ENG

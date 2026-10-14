@@ -1,5 +1,5 @@
 state={
-	id=2064
+	id=1593
 	name="STATE_727"
 	manpower=959
 	state_category = small_island

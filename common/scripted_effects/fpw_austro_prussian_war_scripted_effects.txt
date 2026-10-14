@@ -402,7 +402,7 @@ prussian_surrender = {
 				transfer_state_to = NRW
 				add_core_of = NRW
 			}
-			2713 = {
+			1963 = {
 				transfer_state_to = NRW
 				add_core_of = NRW
 			}

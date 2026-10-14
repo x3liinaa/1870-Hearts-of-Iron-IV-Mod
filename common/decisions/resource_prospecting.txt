@@ -1456,22 +1456,22 @@ prospect_for_resources = {
 		}
 
 		available = {
-			owns_state = 1320
-			controls_state = 1320
+			owns_state = 1177
+			controls_state = 1177
 			has_country_flag = fpw_access_to_rubber_tree_saplings
 			num_of_civilian_factories_available_for_projects > 2
 		}
 
 		highlight_states = {
 			highlight_state_targets = {
-				state = 1320
+				state = 1177
 			}
 		}
 
 		visible = {
-			owns_state = 1320
-			controls_state = 1320
-			1320 = {
+			owns_state = 1177
+			controls_state = 1177
+			1177 = {
 				NOT = {
 					has_state_flag = madagascar_rubber_developed
 				}
@@ -1508,10 +1508,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			1320 = {
+			1177 = {
 				set_state_flag = madagascar_rubber_developed
 			}
-			1320 = {
+			1177 = {
 				add_resource = {
 					type = rubber
 					amount = 12

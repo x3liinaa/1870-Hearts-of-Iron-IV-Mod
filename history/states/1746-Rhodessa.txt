@@ -4,7 +4,7 @@ resources={
 wood=1
 }
 
-	id=1746
+	id=1341
 	name="STATE_545"
 
 	history={

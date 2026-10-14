@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -872,7 +872,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available = {
-		controls_state = 1593
+		controls_state = 1258
 		}
 		ai_will_do = {
 			factor = 2
@@ -880,7 +880,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 		completion_reward = {
 		effect_tooltip = {
-		1593 = { 
+		1258 = {
 		add_core_of = JAP
 		}
 		536 = {
@@ -997,7 +997,7 @@ focus_tree = {
 		NOT = {
 		has_war_with = SOV
 		}
-		controls_state = 1604
+		controls_state = 1269
 		SOV = {
 		controls_state = 555
 		}
@@ -1086,7 +1086,7 @@ focus_tree = {
 		}
 
 		hidden_effect = {
-		1176 = { transfer_state_to = ROOT }
+		1116 = { transfer_state_to = ROOT }
 		CHI = {
 		set_province_controller = 11914
 		set_province_controller = 1175
@@ -1103,7 +1103,7 @@ focus_tree = {
 					
 				}
 			}
-			1176 = {
+			1116 = {
 				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"1. Colonial Assault Division\" division_template = \"Colonial Assault Division\" start_experience_factor = 0.3" 

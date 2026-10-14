@@ -1,6 +1,6 @@
 
 state={
-	id=1353
+	id=1210
 	name="STATE_512"
 	resources={
 		oil=5.000

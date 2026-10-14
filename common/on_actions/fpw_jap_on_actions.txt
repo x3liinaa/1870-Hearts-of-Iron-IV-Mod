@@ -188,14 +188,14 @@ on_actions = {
 							}
 					OR = {		
 					TRB = {
-					controls_state = 1593
+					controls_state = 1258
 					}
 					JAP = {
-					controls_state = 1593
+					controls_state = 1258
 					}
 					any_country = {
 					original_tag = JAP
-                    controls_state = 1593
+                    controls_state = 1258
 					}
 					}
 							}}	
@@ -234,7 +234,7 @@ on_actions = {
 						has_country_flag = jap_ezo_established
 					}
 					EZO = {
-					controls_state = 1593
+					controls_state = 1258
 					}
 					EZO = {
 							has_army_manpower = {
@@ -296,7 +296,7 @@ on_actions = {
 				JAP = {
 				has_country_flag = jap_ezo_created
 				}	
-				1593 = {
+				1258 = {
 				is_controlled_by = JAP
 				}}}
 				

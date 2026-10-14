@@ -1,6 +1,6 @@
 
 state={
-	id=1322
+	id=1179
 	name="STATE_507" # Magallanes
 	manpower=3654
 	

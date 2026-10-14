@@ -1,6 +1,6 @@
 
 state={
-	id=1949
+	id=1478
 	name="STATE_559"
 	resources={
 		steel=1.000

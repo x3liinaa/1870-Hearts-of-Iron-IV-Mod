@@ -3,7 +3,7 @@ resources={
 wood=1
 }
 
-	id=2024
+	id=1553
 	name="STATE_669"
 	manpower=5848
 
