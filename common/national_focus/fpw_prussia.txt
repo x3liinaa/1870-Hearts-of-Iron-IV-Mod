@@ -5870,8 +5870,8 @@ focus = {
 					traits = {
 					}
 				}
-				generate_character = {
-    			}
+				#generate_character = {
+    			#}
 			}
 		}
 	}

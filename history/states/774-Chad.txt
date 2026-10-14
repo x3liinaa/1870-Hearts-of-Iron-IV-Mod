@@ -5,9 +5,8 @@ state={
 
 	history={
 	set_variable = { tribal = 774 }
-		owner = TRB
-		add_core_of = TRB
-		add_core_of = CHA
+		owner = NGR
+		add_core_of = NGR
 		
 		
 

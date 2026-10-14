@@ -9,7 +9,7 @@ set_technology = {
 
 set_convoys = 0
 
-
+set_cosmetic_tag = NGA_bornu_empire
 
 set_politics = {
 	ruling_party = neutrality

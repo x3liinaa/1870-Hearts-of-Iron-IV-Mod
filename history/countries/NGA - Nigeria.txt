@@ -9,7 +9,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+set_cosmetic_tag = NGA_sokoto_calpihate
 
 set_politics = {
 	ruling_party = neutrality

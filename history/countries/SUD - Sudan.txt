@@ -9,6 +9,7 @@ set_technology = {
 
 set_convoys = 20
 
+set_cosmetic_tag = SUD_wadai_empire
 
 
 set_politics = {

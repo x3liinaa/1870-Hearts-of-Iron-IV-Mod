@@ -1266,3 +1266,28 @@ AFG_SHR = {
 	color = rgb {158 56 56}
 	color_ui = rgb {158 56 56}
 }
+
+MRT_toucouler_ct = {
+	color = rgb {137 41 163}
+	color_ui = rgb {137 41 163}
+}
+
+NGA_sokoto_calpihate = {
+	color = rgb {64 77 54}
+	color_ui = rgb {64 77 54}
+}
+
+NGA_bornu_empire = {
+	color = rgb {43 131 189}
+	color_ui = rgb {43 131 189}
+}
+
+SUD_wadai_empire = {
+	color = rgb {214 129 39}
+	color_ui = rgb {214 129 39}
+}
+
+COG_kingdom_of_congo = {
+	color = rgb {155  135  255}
+	color_ui = rgb {155  135  255}
+}

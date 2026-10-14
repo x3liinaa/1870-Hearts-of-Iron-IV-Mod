@@ -35,25 +35,23 @@ on_actions = {
 		}
 	}
 	on_subject_free = {
-			limit = {
-				ROOT = {
-					OR = {
-						original_tag = FIN
-						original_tag = POL
-						original_tag = UKR
-						original_tag = BLR
-						original_tag = LIT
-						original_tag = LAT
-						original_tag = EST
-						original_tag = GEO
-						original_tag = ARM
-						original_tag = AZR
-						original_tag = KAZ
-					}
+		limit = {
+			ROOT = {
+				OR = {
+					original_tag = FIN
+					original_tag = POL
+					original_tag = UKR
+					original_tag = BLR
+					original_tag = LIT
+					original_tag = LAT
+					original_tag = EST
+					original_tag = GEO
+					original_tag = ARM
+					original_tag = AZR
+					original_tag = KAZ
 				}
 			}
-			ROOT = { mark_focus_tree_layout_dirty = yes }
 		}
+		ROOT = { mark_focus_tree_layout_dirty = yes }
 	}
-	
 }

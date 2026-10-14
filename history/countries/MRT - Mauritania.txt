@@ -1,6 +1,10 @@
 capital = 557
 oob = "MRT_1866"
 
+
+set_cosmetic_tag = MRT_toucouler_ct
+
+
 # Starting tech
 set_technology = {
     fpw_cavalry_equipment = 1
