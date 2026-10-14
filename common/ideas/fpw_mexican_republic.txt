@@ -1,0 +1,87 @@
+ideas = {
+	country = {
+		MXR_slow_economic_recovery = {
+
+			picture = generic_communism_drift_bonus
+
+			allowed = {
+				original_tag = MXR
+			}
+
+
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+		MXR_the_republican_army = {
+
+			picture = generic_communism_drift_bonus
+
+			allowed = {
+				original_tag = MXR
+			}
+
+
+			modifier = {
+				experience_gain_army_factor = 0.1
+				conscription_factor = 0.1
+				training_time_army_factor = -0.05
+				#land_doctrine_cost_factor = 0.25
+				#land_mastery_gain_factor = -0.1
+				army_attack_factor = -0.1
+				#army_defence_factor = -0.05
+				army_morale_factor = 0.1
+				army_org_factor = -0.05
+				experience_loss_factor = -0.1
+			}
+		}
+		MXR_masters_of_the_mexican_guerrilla_warfare = {
+
+			picture = generic_communism_drift_bonus
+
+			allowed = {
+				original_tag = MXR
+			}
+
+
+			modifier = {
+				forced_surrender_limit = 0.1
+				offensive_war_stability_factor = 0.2
+				war_support_factor = 0.1
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				army_org_factor = -0.05
+				army_org_regain = 0.1
+				coordination_bonus = 0.05
+				pocket_penalty = -0.25
+				org_loss_when_moving = -0.15
+				max_planning_factor = -0.35
+				planning_speed = 0.15
+			}
+		}
+		MXR_legacy_of_the_5th_of_may = {
+
+			picture = generic_communism_drift_bonus
+
+			allowed = {
+				original_tag = MXR
+			}
+
+
+			modifier = {
+				war_stability_factor = -0.05
+
+			}
+			targeted_modifier = {
+				tag = FRA    # this can also take a variable that stores a scope
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.1
+			}
+
+		}
+
+	}
+}

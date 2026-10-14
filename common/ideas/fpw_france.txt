@@ -1,156 +1,42 @@
 ideas = {
     country = {
-	    # Parliament Suspended
-		fpw_suspend_parliament = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = neutrality
-			}
-
-			removal_cost = -1
-
-			picture = generic_oppression
-
-			modifier = {
-				neutrality_drift = 0.1
-				stability_weekly_factor = -0.001
-			}
-		}
-		
-	    # Marxist Literature
-		fpw_marxist_literature = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			removal_cost = -1
+		FRA_ = {
 
 			picture = generic_communism_drift_bonus
 
-			modifier = {
-				communism_drift = 0.1
-			}
-		}
-		
-	    # National Reforms
-		fpw_reformes_nationales = {
 			allowed = {
-				always = no
+				original_tag = CAT
 			}
 
-			allowed_civil_war = {
-				has_government = neutrality
-			}
-
-			removal_cost = -1
-
-			picture = generic_pp_unity_bonus
 
 			modifier = {
-				political_power_factor = 0.05
-				stability_weekly_factor = 0.01
 			}
 		}
-		
-        fpw_FRA_indemnity_debts_4 = {
-            allowed = {
-			original_tag = FRA
-		}
 
-	    available = {
-	     }
-
-            picture = chi_hyper_inflation4
-
-            removal_cost = -1
-            modifier = {
-                stability_factor = -0.2
-                consumer_goods_factor = 0.2
-            }
-        }
-
-        fpw_FRA_indemnity_debts_3 = {
-            allowed = {
-			original_tag = FRA
-		}
-
-	    available = {
-	     }
-
-            picture = chi_hyper_inflation3
-
-            removal_cost = -1
-            modifier = {
-                stability_factor = -0.15
-                consumer_goods_factor = 0.15
-            }
-        }
-
-        fpw_FRA_indemnity_debts_2 = {
-            allowed = {
-			original_tag = FRA
-		}
-
-	    available = {
-	     }
-
-            picture = chi_hyper_inflation2
-
-            removal_cost = -1
-            modifier = {
-                stability_factor = -0.1
-                consumer_goods_factor = 0.1
-            }
-        }
-
-        fpw_FRA_indemnity_debts_1 = {
-            allowed = {
-			original_tag = FRA
-		}
-
-	    available = {
-	     }
-
-            picture = chi_hyper_inflation
-
-            removal_cost = -1
-            modifier = {
-                stability_factor = -0.05
-                consumer_goods_factor = 0.05
-            }
-        }
-    }
-
-	hidden_ideas = {
-		napoleon_iii_i = {
-			allowed = {
-				original_tag = FRA
-			}
-			cancel = {
-                NOT = {
-					has_government = democratic
-					has_government = fascism
-				}	
-            }
-			on_add = {
-                set_country_flag = fpw_secondary_leader_fra_napoleon_III
-            }
-			on_remove = {
-				clr_country_flag = fpw_secondary_leader_fra_napoleon_III
-            }
-			
-			removal_cost = -1
-			
-			modifier = {
-				war_support_factor = 0.05
-				neutrality_acceptance = 50
+		hidden_ideas = {
+			napoleon_iii_i = {
+				allowed = {
+					original_tag = FRA
+				}
+				cancel = {
+					NOT = {
+						has_government = democratic
+						has_government = fascism
+					}	
+				}
+				on_add = {
+					set_country_flag = fpw_secondary_leader_fra_napoleon_III
+				}
+				on_remove = {
+					clr_country_flag = fpw_secondary_leader_fra_napoleon_III
+				}
+				
+				removal_cost = -1
+				
+				modifier = {
+					war_support_factor = 0.05
+					neutrality_acceptance = 50
+				}
 			}
 		}
 	}

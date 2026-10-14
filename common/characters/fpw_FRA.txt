@@ -4,11 +4,11 @@ characters={
 		name="Napoleon III"
 		portraits={
 			civilian={
-				large=GFX_portrait_FRA_napoleon_iii
+				large="gfx/leaders/FRA/fra_napoleon_iii.png"
 			}
 		}
 		country_leader={
-			ideology=bonapartism
+			ideology=liberalism
 			expire="1956.01.01.01"
 			id=-1
 		}

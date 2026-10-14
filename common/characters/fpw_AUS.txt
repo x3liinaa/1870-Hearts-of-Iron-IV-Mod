@@ -4,7 +4,7 @@ characters={
 		name="Franz Joseph I"
 		portraits={
 			civilian={
-				large=GFX_portrait_AUS_franz_joseph_i
+				large="gfx/leaders/AUS/aus_franz_i.png"
 			}
 		}
 		country_leader={

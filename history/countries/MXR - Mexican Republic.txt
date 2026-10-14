@@ -1,0 +1,39 @@
+capital = 277
+
+declare_war_on = {
+    target = MEX
+    type = annex_everything
+}
+
+# Starting tech
+set_technology = {
+    fpw_cavalry_equipment = 1
+	fpw_infantry_weapons = 1
+	fpw_cannon_artillery = 1
+}
+
+add_ideas = {
+	MXR_legacy_of_the_5th_of_may
+	MXR_slow_economic_recovery
+	MXR_the_republican_army
+	MXR_masters_of_the_mexican_guerrilla_warfare
+}
+
+
+set_convoys = 45
+set_stability = 0.2
+set_war_support = 0.1
+
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1934.7.1"
+	election_frequency = 72
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 18
+	neutrality = 9
+	communism = 53
+}

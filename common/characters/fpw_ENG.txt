@@ -47,7 +47,7 @@ characters={
 		name=ENG_john_russell
 		portraits={
 			civilian={
-				large=GFX_portrait_ENG_john_russel
+				large="gfx/leaders/ENG/eng_john_russel.png"
 			}
 		}
 		country_leader={

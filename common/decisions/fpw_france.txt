@@ -1,252 +1,61 @@
-fpw_france_debts_category = {
+FRA_foreign_stuff_cat = {
 
-	fpw_pay_debts_1 = {
+	FRA_withdrawal_of_french_troops = {
 
-		icon = GFX_decision_infiltrate_state
+		priority = 2000
 
-		cost = 250
+		icon = generic_civil_support
 
+		allowed = {
+			tag = FRA
+		}
+
+		#Success trigger
 		available = {
-			original_tag = FRA
-			has_idea = fpw_FRA_indemnity_debts_4
+			always = no
 		}
-		
-		visible = {
-			OR = {
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_4
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_3
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_2
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_1
-				}
+
+		days_mission_timeout = 30
+
+		#fire_only_once = yes
+
+		is_good = yes
+
+		activation = {
+			NOT = {
+				has_country_flag = fra_complete_withdraw_from_mexico
 			}
 		}
 
-		ai_will_do = {
-			base = 100
-		}
-
-		complete_effect = {
-			if = {
-				limit = {
-					785 = {
-						is_owned_by = PRS
-					}
-				}
-				785 = {
-					transfer_state_to = FRA
-				}
-			}
-			FRA = {
-				swap_ideas = {
-					remove_idea = fpw_FRA_indemnity_debts_4
-					add_idea = fpw_FRA_indemnity_debts_3
-				}
-			}
+		#Failed
+		timeout_effect = {
+			
 		}
 	}
 
-	fpw_pay_debts_2 = {
+	FRA_expedition_to_korea = {
 
-		icon = GFX_decision_infiltrate_state
-
-		cost = 250
+		icon = GFX_decision_gre_paying_ifc_debt
+	
+		allowed = {
+			tag = FRA
+		}
 
 		available = {
-			AND = {
-				original_tag = FRA
-				has_idea = fpw_FRA_indemnity_debts_3
-			}
-		}
-		
-		visible = {
-			OR = {
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_4
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_3
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_2
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_1
-				}
-			}
-		}
-
-		ai_will_do = {
-			base = 100
-		}
-
-		complete_effect = {
-			every_state = {
-				limit = {
-					is_owned_by = PRS
-					OR = {
-						state = 974
-						state = 973
-						state = 17
-					}
-				}
-				transfer_state_to = FRA
-			}
+			#has_completed_focus = SPA_preparatives_for_new_offensives
 			
-			FRA = {
-				swap_ideas = {
-					remove_idea = fpw_FRA_indemnity_debts_3
-					add_idea = fpw_FRA_indemnity_debts_2
-				}
-			}
-		}
-	}
+		} 
 
-	fpw_pay_debts_3 = {
-
-		icon = GFX_decision_infiltrate_state
-
-		cost = 250
-
-		available = {
-			AND = {
-				original_tag = FRA
-				has_idea = fpw_FRA_indemnity_debts_2
-			}
-		}
-		
-		visible = {
-			OR = {
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_4
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_3
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_2
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_1
-				}
-			}
-		}
-
-		ai_will_do = {
-			base = 100
-		}
-
-		complete_effect = {
-			every_state = {
-				limit = {
-					AND = {
-						is_owned_by = PRS
-						OR = {
-							state = 18
-							state = 971
-							if = {
-								limit = {
-									PRS = {
-										NOT = {
-											has_country_flag = fpw_PRS_took_alsace_lorraine_and_belfort
-										}
-									}
-								}
-								state = 975
-							}
-							if = {
-								limit = {
-									PRS = {
-										NOT = {
-											has_country_flag = fpw_PRS_took_nanzig_epinal
-										}
-									}
-								}
-								state = 977
-							}
-						}
-					}
-				}
-				transfer_state_to = FRA
-			}
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
 			
-			FRA = {
-				swap_ideas = {
-					remove_idea = fpw_FRA_indemnity_debts_2
-					add_idea = fpw_FRA_indemnity_debts_1
-				}
-			}
 		}
-	}
 
-	fpw_pay_debts_4 = {
+		fire_only_once = yes
 
-		icon = GFX_decision_infiltrate_state
-
-		cost = 250
-
-		available = {
-			AND = {
-				original_tag = FRA
-				has_idea = fpw_FRA_indemnity_debts_1
-			}
-		}
+		cost = 35
 		
-		visible = {
-			OR = {
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_4
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_3
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_2
-				}
-				FRA = {
-					has_idea = fpw_FRA_indemnity_debts_1
-				}
-			}
-		}
-
-		ai_will_do = {
-			base = 100
-		}
-
 		complete_effect = {
-			every_state = {
-				limit = {
-					AND = {
-						is_owned_by = PRS
-						OR = {
-							state = 972
-							if = {
-								limit = {
-									PRS = {
-										NOT = {
-											has_country_flag = fpw_PRS_took_nanzig_epinal
-										}
-									}
-								}
-								state = 976
-							}
-						}
-					}
-				}
-				transfer_state_to = FRA
-			}
-			
-			FRA = {
-				remove_ideas = {
-					fpw_FRA_indemnity_debts_1
-				}
-			}
 		}
 	}
 }

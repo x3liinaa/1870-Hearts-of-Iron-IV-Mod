@@ -4,7 +4,7 @@ characters={
 		name = SOV_alexander_ii
 		portraits = {
 			civilian = {
-				large = GFX_portrait_SOV_alexander_ii
+				large = "gfx/leaders/SOV/sov_alexander_ii.png"
 			}
 		}
 		country_leader = {

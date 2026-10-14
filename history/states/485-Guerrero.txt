@@ -16,7 +16,7 @@ wood=1
 
 
 	history={
-		owner = MEX
+		owner = MXR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -25,6 +25,7 @@ wood=1
 			}
 		}
 		add_core_of = MEX
+		add_core_of = MXR
 		victory_points = {
 			10730 5
 		}

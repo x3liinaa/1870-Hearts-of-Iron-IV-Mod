@@ -391,6 +391,10 @@ LIB = {
 	color_ui = rgb { 198 169 248 }
 }
 MEX = {
+	color = rgb { 44 63 35 }
+	color_ui = rgb { 44 63 35 }
+}
+MXR = {
 	color = rgb { 104 152 83 }
 	color_ui = rgb { 135 198 108 }
 }

@@ -19,7 +19,7 @@ characters={
 		name="Otto von Bismarck"
 		portraits={
 			civilian={
-				large=GFX_portrait_PRS_otto_von_bismarck
+				large="gfx/leaders/PRS/prs_otto.png"
 			}
 		}
 		country_leader={
