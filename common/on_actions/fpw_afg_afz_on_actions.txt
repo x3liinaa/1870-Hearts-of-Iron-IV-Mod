@@ -4,12 +4,10 @@ on_actions = {
 
 			AFZ = {			
 				country_event = fpw_afghan.1
-				days = 1
-				}
+			}
 			AFG = {			
 				country_event = fpw_afghan.1
-				days = 1
-				}
+			}
 					
 			}
 

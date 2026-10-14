@@ -1475,4 +1475,22 @@ peace_score_reset_low_scores = {
 	}
 }
 
+fpw_rule_habsburg_rome = {
+	name = "FPW_RULE_HABSBURG_ROME"
+	group = "FPW_RULE_GROUP_MOD_CUSTOMIZATION"
+	icon = "GFX_wargoals"
+	default = {
+		name = "NO"
+		text = FPW_RULE_HABSBURG_ROME_DISABLED
+		desc = FPW_RULE_HABSBURG_ROME_DISABLED
+		allow_achievements = yes
+	}
+	option = {
+		name = "YES"
+		text = FPW_RULE_HABSBURG_ROME_ENABLED
+		desc = FPW_RULE_HABSBURG_ROME_ENABLED_DESC
+		allow_achievements = yes
+	}
+}
+
 # We could add stuff for political advisor visibility filters here too, in the future.
