@@ -45,10 +45,10 @@
  JAP_neutrality_party:0 "Shogun Loyalists"
  JAP_fascism_party:0 "Imperial Sympathizers"
  
- FRA_democratic_party:0 "Moderates"
- FRA_fascism_party:0 "Union Libérale"
- FRA_communism_party:0 "Far-Left Groups"
- FRA_neutrality_party:0 "House of Bonaparte"
+ FRA_democratic_party:0 "RM"
+ FRA_fascism_party:0 "Bonapartistes (Officiels)"
+ FRA_communism_party:0 "AIT"
+ FRA_neutrality_party:0 "TP"
  FRA_np:0 "Rassemblement National"
  
  BEL_fascism_party:0 "Liberal Party"

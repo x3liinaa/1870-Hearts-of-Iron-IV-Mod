@@ -52,3 +52,16 @@ FRA_foreign_stuff_cat = {
 		#has_completed_focus = SPA_preparatives_for_new_offensives
 	}
 }
+FRA_modernization_of_paris_cat = {
+
+	icon = GFX_decision_category_gre_paying_ifc_debt
+	priority = 250
+	#picture = GFX_decision_cat_picture_ARG_international_loan_decisions
+	visible_when_empty = no
+	allowed = {
+		tag = FRA
+	}
+	visible = {
+		#has_completed_focus = SPA_preparatives_for_new_offensives
+	}
+}
