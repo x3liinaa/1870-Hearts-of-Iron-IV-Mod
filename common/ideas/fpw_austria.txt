@@ -230,6 +230,15 @@ ideas = {
 				compliance_growth = -0.20
             }
 		}
+
+		AUS_stock_market_crash = {
+			#picture = ROM_balkans_dominance
+			modifier = {
+				resistance_target = 0.15
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.20
+            }
+		}
 		
 		
 	}

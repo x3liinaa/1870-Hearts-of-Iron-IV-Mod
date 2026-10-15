@@ -512,3 +512,144 @@ country_event = {
 	}
 }
 
+### Austria World Fair event triggered in 1873
+
+country_event = {
+	id = fpw_austria.15
+	title = fpw_austria.15.t
+	desc = fpw_austria.15.d
+	picture = GFX_report_event_gathering_protest
+	is_triggered_only = yes
+
+	## host the Vienna World Fair, This will have consequences and will continue the event chain
+	option = {
+		name = fpw_austria.15.a
+		ai_chance = { factor = 400 }
+		add_war_support = 0.15
+		add_political_power = 200
+	}
+	
+
+	## Reject
+	option = {
+		name = fpw_austria.15.b
+		ai_chance = { factor = 40 }
+		add_war_support = -0.05
+		
+	}
+}
+
+
+### Stock Market Crash due to world fair
+country_event = {
+	id = fpw_austria.16
+	title = fpw_austria.16.t
+	desc = fpw_austria.16.d
+	picture = GFX_report_event_gathering_protest
+	is_triggered_only = yes
+
+	option = {
+		name = fpw_austria.16.a
+		ai_chance = { factor = 400 }
+		add_stability = -0.20
+		add_timed_idea = {
+			idea = AUS_stock_market_crash
+			days = 100
+		}
+	}
+}
+
+### Imperial Awards 
+country_event = {
+	id = fpw_austria.17
+	title = fpw_austria.17.t
+	desc = fpw_austria.17.d
+	picture = GFX_report_event_gathering_protest
+	is_triggered_only = yes
+
+	option = {
+		name = fpw_austria.17.a
+		ai_chance = { factor = 401 }
+		army_experience = 50
+		add_political_power = -25
+	}
+
+	option = {
+		name = fpw_austria.17.b
+		ai_chance = { factor = 400 }
+		## nothing
+	}
+}
+
+### price of a new uniform, flavor
+country_event = {
+	id = fpw_austria.18
+	title = fpw_austria.18.t
+	desc = fpw_austria.18.d
+	picture = GFX_report_event_gathering_protest
+	is_triggered_only = yes
+
+	option = {
+		name = fpw_austria.18.a
+		ai_chance = { factor = 401 }
+		army_experience = 25
+		add_political_power = -100
+	}
+
+	option = {
+		name = fpw_austria.18.b
+		ai_chance = { factor = 400 }
+		## add neglected military temperary modifier
+		army_experience = -100
+	}
+}
+
+### emporer and empress, flavor
+country_event = {
+	id = fpw_austria.19
+	title = fpw_austria.19.t
+	desc = fpw_austria.19.d
+	picture = GFX_report_event_gathering_protest
+	is_triggered_only = yes
+
+
+	### let the empress do as she wishes
+	option = {
+		name = fpw_austria.19.a
+		ai_chance = { factor = 401 }
+		add_stability = 0.025
+	}
+
+
+	### tradition must be upheld
+	option = {
+		name = fpw_austria.19.b
+		ai_chance = { factor = 400 }
+		add_political_power = 15
+	}
+}
+
+### emporers address
+country_event = {
+	id = fpw_austria.20
+	title = fpw_austria.20.t
+	desc = fpw_austria.20.d
+	picture = GFX_report_event_gathering_protest
+	is_triggered_only = yes
+
+
+	### Promise economic reform
+	option = {
+		name = fpw_austria.20.a
+		ai_chance = { factor = 401 }
+		add_stability = 0.05
+	}
+
+
+	### Promise revenge and reconquest
+	option = {
+		name = fpw_austria.20.b
+		ai_chance = { factor = 400 }
+		add_war_support = 0.05
+	}
+}
