@@ -1,0 +1,27 @@
+﻿l_english:
+#Bookmarks
+# Country loc
+
+#Parties
+ FRA_communism_party_long: "Association Internationale des Travailleurs\n\n§8International Workingmen's Association§!\n§LW.I.P§!\n"
+ FRA_fascism_party_long: "Bonapartistes (Officiels)\n\n§8Bonapartists (Officials)§!\n§LW.I.P§!\n"
+ FRA_democratic_party_long: "Républicains Modérés\n\n§8Moderate Republicans§!\n§LW.I.P§!\n"
+ FRA_neutrality_party_long: "Tiers Parti\n\n§8Third Party§!\n§LW.I.P§!\n"
+ #Ideas
+
+ #Focuses
+
+#Events
+
+#Decisions
+
+#Misc
+ banned_party_party_loc: "§R-- BANNED PARTY --§!"
+ historical_choice_tt: "§OThis is the Historical Choice.§!"
+ at_war_no_tt: "§RIf we Enter at War, this National Spirit will be lost.§!"
+
+ middle_thingy_tt: "-----------------------------------------------------------------"
+
+
+
+ # TECH STUFF LOC

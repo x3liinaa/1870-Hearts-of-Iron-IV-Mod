@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	SpriteType = {
+        name = "GFX_idea_fra_bri_treaty"
+        texturefile = "gfx/interface/ideas/FRA/fra_bri_treaty.png"
+    }
+	SpriteType = {
+        name = "GFX_idea_fra_constitutional_reform"
+        texturefile = "gfx/interface/ideas/FRA/fra_constitutional_reform.png"
+    }
+	SpriteType = {
+        name = "GFX_idea_fra_education_reform"
+        texturefile = "gfx/interface/ideas/FRA/fra_education_reform.png"
+    }
+	SpriteType = {
+        name = "GFX_idea_fra_french_army_empire"
+        texturefile = "gfx/interface/ideas/FRA/fra_french_army_empire.png"
+    }
+
+}

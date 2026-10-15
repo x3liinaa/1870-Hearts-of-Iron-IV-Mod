@@ -11,3 +11,41 @@ fpw_FRA_cultural_heritage = {
 
 	custom_modifier_tooltip = prestige_modifier_cultural_heritage
 }
+FRA_french_economy_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+	icon = GFX_idea_CHI_decisive_battle
+	attacker_modifier = yes
+
+	political_power_gain = fra_economy_political_power_gain
+	stability_factor = fra_economy_stability_factor
+	production_factory_efficiency_gain_factor = fra_economy_production_factory_efficiency_gain_factor
+	production_lack_of_resource_penalty_factor = fra_economy_production_lack_of_resource_penalty_factor
+	production_speed_industrial_complex_factor = fra_economy_production_speed_industrial_complex_factor
+	production_speed_arms_factory_factor = fra_economy_production_speed_arms_factory_factor
+	consumer_goods_factor = fra_economy_consumer_goods_factor
+	industrial_capacity_factory = fra_economy_industrial_capacity_factory
+	industrial_capacity_dockyard = fra_economy_industrial_capacity_dockyard
+}
+FRA_french_army_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+	icon = GFX_idea_fra_french_army_empire
+	attacker_modifier = yes
+
+	conscription_factor = FRA_army_conscription_factor #0.1
+	experience_gain_army_factor = FRA_army_experience_gain_army_factor #0.05
+	max_command_power = FRA_army_max_command_power #-80
+	training_time_army_factor = FRA_army_training_time_army_factor #-0.05
+	land_doctrine_cost_factor = FRA_army_land_doctrine_cost_factor #0.10
+	land_mastery_gain_factor = FRA_army_land_mastery_gain_factor #0.05
+	army_attack_factor = FRA_army_army_attack_factor #-0.1
+	army_defence_factor = FRA_army_army_defence_factor #-0.1
+	army_morale_factor = FRA_army_army_morale_factor #0.05
+	army_org_factor = FRA_army_army_org_factor #-0.1
+	experience_loss_factor = FRA_army_experience_loss_factor #0.1
+	max_dig_in_factor = FRA_army_max_dig_in_factor #-0.05
+	dig_in_speed_factor = FRA_army_dig_in_speed_factor #-0.1
+	max_planning_factor = FRA_army_max_planning_factor #-0.25
+	planning_speed = FRA_army_planning_speed #-0.35
+	supply_factor = FRA_army_supply_factor #-0.25
+	supply_consumption_factor = FRA_army_supply_consumption_factor #-0.05
+}

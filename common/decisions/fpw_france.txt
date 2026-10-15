@@ -59,3 +59,331 @@ FRA_foreign_stuff_cat = {
 		}
 	}
 }
+FRA_modernization_of_paris_cat = {
+
+	FRA_second_phase_networks_of_new_boulevards = {
+
+		priority = 2000
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = FRA
+		}
+
+		#Success trigger
+		available = {
+			always = no
+		}
+
+		days_mission_timeout = 500
+
+		#fire_only_once = yes
+
+		is_good = yes
+
+		activation = {
+			NOT = {
+				has_country_flag = fra_complete_withdraw_from_mexico
+			}
+		}
+
+		#Failed
+		timeout_effect = {
+			
+		}
+	}
+
+	FRA_redevelop_the_ile_de_la_cite = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+		priority = 10
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+	FRA_construction_of_new_boulevards_on_the_left_bank = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+		priority = 10
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+	FRA_construction_of_new_boulevards_on_the_right_bank = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+		priority = 10
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+	FRA_construction_of_the_railway_station_gare_du_nord_and_gare_de_l_est = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+		priority = 10
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+	FRA_rebuilding_the_gare_du_lyon = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+		priority = 10
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+	FRA_expansion_of_public_green_spaces = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+		priority = 10
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+
+
+	FRA_third_phase_new_extensions_of_boulevards = {
+
+		priority = 5
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = FRA
+		}
+
+		#Success trigger
+		available = {
+			always = no
+		}
+
+		days_mission_timeout = 500
+
+		#fire_only_once = yes
+
+		is_good = yes
+
+		activation = {
+			NOT = {
+				has_country_flag = fra_complete_withdraw_from_mexico
+			}
+		}
+
+		#Failed
+		timeout_effect = {
+			
+		}
+	}
+
+	FRA_renovation_of_the_jardins_des_champs_elysees = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+
+	FRA_finish_the_place_du_chateau_d_eau = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+	FRA_extension_of_the_boulevard_haussmann = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+	FRA_building_the_boulevard_saint_germain = {
+
+		icon = GFX_decision_gre_paying_ifc_debt
+	
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		} 
+
+		visible = { 
+			#has_completed_focus = SPA_preparatives_for_new_offensives
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		
+		complete_effect = {
+		}
+	}
+}

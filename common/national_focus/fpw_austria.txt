@@ -809,6 +809,36 @@
 	}
 
 	focus = {
+		id = AUS_demand_consessions_from_china
+		icon = GFX_focus_generic_balkan_diplomacy
+		x = -3
+		y = 1
+		relative_position_id = AUS_the_duel_monarchy
+		prerequisite = { focus = AUS_the_duel_monarchy }
+		cost = 5
+		available = {
+		}
+		completion_reward = {
+			# gives event to China demanding tianjin
+		}
+	}
+
+	focus = {
+		id = AUS_austrian_colonial_ventures
+		icon = GFX_focus_generic_balkan_diplomacy
+		x = 0
+		y = 1
+		relative_position_id = AUS_demand_consessions_from_china
+		prerequisite = { focus = AUS_demand_consessions_from_china }
+		cost = 5
+		available = {
+		}
+		completion_reward = {
+			# gives event to China demanding tianjin
+		}
+	}
+
+	focus = {
 		id = AUS_congress_of_berlin
 		icon = GFX_focus_YUG_safeguard_bosnia
 		x = 0
@@ -1142,6 +1172,7 @@
 		prerequisite = { focus = AUS_the_european_theatre }
 		cost = 5
 		available = {
+			has_global_flag = fpw_prussia_won
 		}
 		completion_reward = {
 			#improves relations with the german empire
@@ -1198,6 +1229,7 @@
 		prerequisite = { focus = AUS_the_european_theatre }
 		cost = 5
 		available = {
+			has_global_flag = fpw_prussia_won
 		}
 		completion_reward = {
 			FRA = {
@@ -1321,7 +1353,9 @@
 		prerequisite = { focus = AUS_fragment_italy }
 		cost = 5
 		available = {
-			has_completed_focus = AUS_pursue_lost_italian_ambitions
+			AUS = {
+				owns_state = 2
+			}
 		}
 		completion_reward = {
 			puppet = {
@@ -1348,7 +1382,6 @@
 		prerequisite = { focus = AUS_fragment_italy }
 		cost = 5
 		available = {
-			has_completed_focus = AUS_pursue_lost_italian_ambitions
 		}
 		completion_reward = {
 			create_wargoal = {
@@ -1367,7 +1400,9 @@
 		prerequisite = { focus = AUS_austrian_dominence }
 		cost = 5
 		available = {
-			has_completed_focus = AUS_avenge_the_bruderkrieg
+			AUS = {
+				owns_state = 64
+			}
 		}
 		completion_reward = {
 			# This focus will shatter germany
@@ -1383,7 +1418,6 @@
 		prerequisite = { focus = AUS_reinstate_the_confederation }
 		cost = 5
 		available = {
-			has_completed_focus = AUS_avenge_the_bruderkrieg
 		}
 		completion_reward = {
 			# This focus will puppet the southern states
@@ -1411,7 +1445,6 @@
 		prerequisite = { focus = AUS_reinstate_the_confederation }
 		cost = 5
 		available = {
-			has_completed_focus = AUS_avenge_the_bruderkrieg
 		}
 		completion_reward = {
 			create_wargoal = {
@@ -1453,7 +1486,7 @@
 	focus = {
 		id = AUS_reclaim_rome
 		#icon = GFX_focus_generic_the_council_of_europe
-		x = -3
+		x = 0
 		y = 1
 		relative_position_id = AUS_restitutio_romae
 		prerequisite = { focus = AUS_restitutio_romae}
@@ -1469,12 +1502,53 @@
 	}
 
 	focus = {
+		id = AUS_imperial_glory
+		#icon = GFX_focus_generic_the_council_of_europe
+		x = -2
+		y = 1
+		relative_position_id = AUS_reclaim_rome
+		prerequisite = { focus = AUS_reclaim_rome}
+		cost = 5
+		available = {
+		}
+		completion_reward = {
+			# grants a core atk and def buff national idea
+		}
+	}
+
+	focus = {
+		id = AUS_destroy_prussia
+		#icon = GFX_focus_generic_the_council_of_europe
+		x = 0
+		y = 1
+		relative_position_id = AUS_reclaim_rome
+		prerequisite = { focus = AUS_reclaim_rome}
+		cost = 5
+		available = {
+		}
+		bypass = {
+			PRS = {
+				NOT = { is_subject_of = AUS }
+			}
+		}
+		completion_reward = {
+			# Annexs Prussian Vassal
+		}
+	}
+
+	focus = {
 		id = AUS_habsburg_sea
 		#icon = GFX_focus_generic_the_council_of_europe
-		x = 3
+		x = 7
 		y = 1
 		relative_position_id = AUS_restitutio_romae
 		prerequisite = { focus = AUS_restitutio_romae}
+		allow_branch = {
+			has_game_rule = {
+				rule = fpw_rule_habsburg_rome
+				option = yes
+			}
+		}
 		cost = 5
 		available = {
 		}
@@ -1876,6 +1950,22 @@
 		}
 		completion_reward = {
 			## ill add this
+		}
+	}
+
+	focus = {
+		id = AUS_imperial_awards
+		#icon = GFX_focus_generic_advanced_military_studies
+		x = -2
+		y = 1
+		relative_position_id = AUS_lessons_from_italian_front
+		prerequisite = { focus =  AUS_lessons_from_italian_front }
+		prerequisite = { focus =  AUS_for_the_emporer }
+		cost = 10
+		available = {
+		}
+		completion_reward = {
+			## This focus will unlock a event that triggers at the start of every year that allows you to trade political power for army experience
 		}
 	}
 
