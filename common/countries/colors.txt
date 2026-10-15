@@ -1104,3 +1104,12 @@ LAN = {
 	color = rgb { 236 195 2 }
 	color_ui = rgb { 236 195 2 }
 }
+ZUL = {
+	color = rgb { 77 255 86 }
+	color_ui = rgb { 77 255 86 }
+}
+
+CHK = {
+	color = rgb { 191 154 15 }
+	color_ui = rgb { 191 154 15 }
+}

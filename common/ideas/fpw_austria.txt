@@ -94,6 +94,26 @@ ideas = {
 				infantry_defence_factor = 0.05
             }
 		}
+
+		AUS_stock_market_crash = {
+			picture = generic_economic_crisis
+			modifier = {
+				resistance_target = 0.15
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.20
+            }
+		}
+
+		AUS_imperial_restoration = {
+			picture = AUS_empire_restored
+			modifier = {
+				resistance_target = -0.15
+				compliance_growth = 0.15
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+				
+            }
+		}
 		
 	}
 	
@@ -231,14 +251,7 @@ ideas = {
             }
 		}
 
-		AUS_stock_market_crash = {
-			#picture = ROM_balkans_dominance
-			modifier = {
-				resistance_target = 0.15
-				consumer_goods_factor = 0.25
-				industrial_capacity_factory = -0.20
-            }
-		}
+		
 		
 		
 	}

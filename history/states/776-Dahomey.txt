@@ -10,9 +10,8 @@ wood=1
 	
 	state_category = pastoral
 	history={
-	set_variable = { tribal = 776 }
-owner = TRB
-add_core_of = TRB
+		set_variable = { tribal = 776 }
+		owner = DAH
 		add_core_of = DAH
 		
 		

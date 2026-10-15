@@ -1291,3 +1291,8 @@ COG_kingdom_of_congo = {
 	color = rgb {155  135  255}
 	color_ui = rgb {155  135  255}
 }
+
+DAH_benin_kingdom = {
+	color = rgb {61 225 237}
+	color_ui = rgb {61 225 237}
+}

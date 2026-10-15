@@ -1190,6 +1190,7 @@
 		y = 1
 		relative_position_id = AUS_reconcile_with_germany
 		prerequisite = { focus = AUS_reconcile_with_germany }
+		will_lead_to_war_with = ITA
 		cost = 5
 		available = {
 		}
@@ -1245,6 +1246,7 @@
 		y = 1
 		relative_position_id = AUS_defeated_powers
 		prerequisite = { focus = AUS_defeated_powers }
+		will_lead_to_war_with = PRS
 		cost = 5
 		available = {
 		}
@@ -1380,6 +1382,7 @@
 		y = 1
 		relative_position_id = AUS_fragment_italy
 		prerequisite = { focus = AUS_fragment_italy }
+		will_lead_to_war_with = SWI
 		cost = 5
 		available = {
 		}
@@ -1406,6 +1409,65 @@
 		}
 		completion_reward = {
 			# This focus will shatter germany
+			hidden_effect = {
+				PRS = {
+					release = BAV
+					release = WRT
+					release = BAD
+					release = HOH
+					release = HES
+					release = FRK
+					release = NAS
+					release = HEK
+					release = SXY
+					release = SXM
+					release = HNV
+					release = MCK
+					release = LUE
+					release = HAM
+				}
+			}
+			
+			puppet = {
+				target = HES
+				end_wars = no
+			}
+			puppet = {
+				target = FRK
+				end_wars = no
+			}
+			puppet = {
+				target = SXY
+				end_wars = no
+			}
+			puppet = {
+				target = NAS
+				end_wars = no
+			}
+			puppet = {
+				target = SXM
+				end_wars = no
+			}
+			puppet = {
+				target = HEK
+				end_wars = no
+			}
+			puppet = {
+				target = MCK
+				end_wars = no
+			}
+			puppet = {
+				target = HAM
+				end_wars = no
+			}
+			puppet = {
+				target = LUE
+				end_wars = no
+			}
+			puppet = {
+				target = HNV
+				end_wars = no
+			}
 		}
 	}
 
@@ -1433,6 +1495,10 @@
 				target = BAD
 				end_wars = no
 			}
+			puppet = {
+				target = HOH
+				end_wars = no
+			}
 		}
 	}
 
@@ -1443,6 +1509,9 @@
 		y = 1
 		relative_position_id = AUS_reinstate_the_confederation
 		prerequisite = { focus = AUS_reinstate_the_confederation }
+		will_lead_to_war_with = HOL
+		will_lead_to_war_with = BEL
+		will_lead_to_war_with = DEN
 		cost = 5
 		available = {
 		}
@@ -1480,6 +1549,65 @@
 		completion_reward = {
 			# gives idea rome restored
 			# Either restores the Holy Roman Empire or The Roman Empire
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = fpw_rule_habsburg_rome
+						option = yes
+					}
+				}
+			}
+			else = {
+				annex_country = {
+					target = BAV
+				}
+				annex_country = {
+					target = WRT
+				}
+				annex_country = {
+					target = BAD
+				}
+				annex_country = {
+					target = HOH
+				}
+				annex_country = {
+					target = HES
+				}
+				annex_country = {
+					target = FRK
+				}
+				annex_country = {
+					target = NAS
+				}
+				annex_country = {
+					target = HEK
+				}
+				annex_country = {
+					target = SXY
+				}
+				annex_country = {
+					target = SXM
+				}
+				annex_country = {
+					target = HNV
+				}
+				annex_country = {
+					target = MCK
+				}
+				annex_country = {
+					target = LUE
+				}
+				annex_country = {
+					target = HAM
+				}
+				set_cosmetic_tag = HRE_UNIFIED
+				every_state = {
+					limit = {
+						is_core_of = PRS
+					}
+					add_core_of = AUS
+				}
+			}
 		}
 	}
 
@@ -1512,7 +1640,8 @@
 		available = {
 		}
 		completion_reward = {
-			# grants a core atk and def buff national idea
+			add_ideas = AUS_imperial_restoration
+
 		}
 	}
 
@@ -1524,15 +1653,19 @@
 		relative_position_id = AUS_reclaim_rome
 		prerequisite = { focus = AUS_reclaim_rome}
 		cost = 5
+		will_lead_to_war_with = PRS
 		available = {
 		}
 		bypass = {
 			PRS = {
-				NOT = { is_subject_of = AUS }
+				exists = no
 			}
 		}
 		completion_reward = {
-			# Annexs Prussian Vassal
+			create_wargoal = {
+				target = PRS
+				type = puppet_wargoal_focus
+			}
 		}
 	}
 

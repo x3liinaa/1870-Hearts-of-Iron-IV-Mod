@@ -11,10 +11,12 @@ wood=1
 
 	history={
 	set_variable = { tribal = 890 }
-		owner = TRB
-		add_core_of = TRB
+		owner = CHK
+		
+		
 		
 		add_core_of = COG
+		add_core_of = CHK
 
 	}
 
