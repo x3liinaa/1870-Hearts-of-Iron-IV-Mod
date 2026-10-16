@@ -12,6 +12,22 @@
  #Focuses
 
 #Events
+french_empire_events.1.title: "Battle of Bagdad"
+french_empire_events.2.title: "Explosion in the Factory of Mr. Aubin!"
+french_empire_events.3.title: "Withdrawal of French Troops from Mexico"
+french_empire_events.4.title: "Reconnaissance of the Mekong Valley"
+french_empire_events.5.title: "Centenary of Lorraine's Annexation to France"
+french_empire_events.6.title: "France-Japan Universal Exposition Incident"
+french_empire_events.7.title: "Massacre of Nine Missionaries in Korea"
+french_empire_events.8.title: "Premiere of La Vie Parisienne"
+french_empire_events.9.title: "Parisian Bronze Strike"
+french_empire_events.10.title: "Foundation of the League of Peace and Liberty"
+french_empire_events.11.title: "The Salzburg Meeting"
+
+lbe_france_news.1.title: "Exposition Universelle de 1867"
+lbe_france_news.2.title: "Luxembourg Crisis"
+lbe_france_news.3.title: "Three Emperors Dinner"
+lbe_france_news.4.title: "Tsar Alexander II Assassination Attempt in the Universal Exposition!"
 
 #Decisions
 
@@ -21,7 +37,7 @@
  at_war_no_tt: "§RIf we Enter at War, this National Spirit will be lost.§!"
 
  middle_thingy_tt: "-----------------------------------------------------------------"
-
+fra_modify_economy_tt: "Modify §YFrench Economy§! by:"
 
 
  # TECH STUFF LOC

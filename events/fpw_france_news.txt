@@ -1,0 +1,89 @@
+##########################
+##########################
+#### AAT NEWS EVENTS #####
+##########################
+##########################
+
+add_namespace = lbe_france_news
+
+
+# Exposition universelle de 1867
+news_event = {
+	id = lbe_france_news.1
+	title = lbe_france_news.1.title
+	desc = lbe_france_news.1.desc
+	picture = GFX_news_event_generic_sign_treaty3
+	
+	major = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # dear god
+		name = lbe_france_news.1.a
+		hidden_effect = {
+			news_event = {
+				id = lbe_france_news.4
+				days = 66
+			}
+		}
+	}
+}
+# Luxembourg Crisis
+news_event = {
+	id = lbe_france_news.2
+	title = lbe_france_news.2.title
+	desc = lbe_france_news.2.desc
+	picture = GFX_news_event_generic_sign_treaty3
+	
+	major = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # dear god
+		name = lbe_france_news.2.a
+		
+		trigger = {
+			NOT = { tag = FRA }
+		}
+	}
+	option = { # dear god
+		name = lbe_france_news.2.b
+		trigger = {
+			tag = FRA
+		}
+	}
+}
+# Three Emperors Dinner
+news_event = {
+	id = lbe_france_news.3
+	title = lbe_france_news.3.title
+	desc = lbe_france_news.3.desc
+	picture = GFX_news_event_generic_sign_treaty3
+	
+	major = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # dear god
+		name = lbe_france_news.3.a
+	}
+}
+# Tsar alexander II assassination attempt in the universal exposition
+news_event = {
+	id = lbe_france_news.4
+	title = lbe_france_news.4.title
+	desc = lbe_france_news.4.desc
+	picture = GFX_news_event_generic_sign_treaty3
+	
+	major = yes
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # dear god
+		name = lbe_france_news.4.a
+	}
+}
