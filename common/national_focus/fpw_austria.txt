@@ -1533,7 +1533,7 @@
 
 	focus = {
 		id = AUS_restitutio_romae
-		#icon = GFX_focus_generic_the_council_of_europe
+		icon = GFX_focus_PRS_hre_traditions
 		x = 3
 		y = 2
 		relative_position_id = AUS_reinstate_the_confederation
